@@ -38,36 +38,18 @@ def upload():
         )
         print("   ✅ index.html uploaded!")
 
-        # Upload README.md if it exists (ensuring HF Space YAML metadata header is included)
+        # Upload README.md if it exists
         readme = Path(__file__).parent / "README.md"
         if readme.exists():
-            print("   📤 Uploading README.md to HuggingFace Space...")
-            content = readme.read_text(encoding="utf-8")
-            hf_yaml = """---
-title: CommerceOS — Agentic Commerce Lab & Google UCP Server
-emoji: 🧪
-colorFrom: purple
-colorTo: blue
-sdk: static
-pinned: true
-license: apache-2.0
-short_description: AI Commerce Agent & Google UCP Direct Buying Simulator
----
-
-"""
-            if not content.startswith("---"):
-                hf_content = hf_yaml + content
-            else:
-                hf_content = content
-
+            print("   📤 Uploading clean README.md to HuggingFace Space...")
             api.upload_file(
-                path_or_fileobj=hf_content.encode("utf-8"),
+                path_or_fileobj=str(readme),
                 path_in_repo="README.md",
                 repo_id=REPO_ID,
                 repo_type="space",
-                commit_message="Update README with HF Space metadata"
+                commit_message="Remove metadata header from README"
             )
-            print("   ✅ README.md uploaded to HuggingFace with Space metadata!")
+            print("   ✅ Clean README.md uploaded to HuggingFace!")
 
         # Upload docs/images folder if it exists
         docs_dir = Path(__file__).parent / "docs"
