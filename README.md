@@ -1,14 +1,3 @@
----
-title: CommerceOS — Agentic Commerce Lab & Google UCP Server
-emoji: 🧪
-colorFrom: purple
-colorTo: blue
-sdk: static
-pinned: true
-license: apache-2.0
-short_description: Autonomous Agentic Commerce Platform & Google UCP Direct Buying Simulator
----
-
 # CommerceOS — Autonomous AI Commerce Agent & Google UCP Protocol Lab
 
 > **"An interactive laboratory and server implementation for AI-native agentic commerce."**
