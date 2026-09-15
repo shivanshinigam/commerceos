@@ -13,28 +13,28 @@
 ### 1. Main Agentic Commerce Interface (`Try It Live`)
 Natural language intent extraction, 6-dimensional candidate ranking, real-time AI Brain execution trace, and mobile buying simulator.
 
-![CommerceOS Main UI](docs/images/main_demo.png)
+![CommerceOS Main UI](https://raw.githubusercontent.com/shivanshinigam/commerceos/main/docs/images/main_demo.png)
 
 ---
 
 ### 2. Dual Smartphone Payment & Checkout Simulation
 Watch Gemini AI discover inventory via UCP endpoints, request session locks, and complete settlement via Google Pay tokens in real-time.
 
-![UCP Phone Simulation](docs/images/ucp_phone_simulation.png)
+![UCP Phone Simulation](https://raw.githubusercontent.com/shivanshinigam/commerceos/main/docs/images/ucp_phone_simulation.png)
 
 ---
 
 ### 3. Google UCP Protocol Explorer & Live Payload Inspector
 Inspect raw UCP JSON payloads (`GET /.well-known/ucp`, `POST /checkout-sessions`), capability negotiation profiles, and API specifications.
 
-![UCP Explorer Spec](docs/images/ucp_explorer_spec.png)
+![UCP Explorer Spec](https://raw.githubusercontent.com/shivanshinigam/commerceos/main/docs/images/ucp_explorer_spec.png)
 
 ---
 
 ### 4. Architecture & Component Topology
 Full system component interaction map linking AI intent parsing, multi-constraint boundary filtering, and merchant API connectors.
 
-![Architecture Topology](docs/images/architecture_topology.png)
+![Architecture Topology](https://raw.githubusercontent.com/shivanshinigam/commerceos/main/docs/images/architecture_topology.png)
 
 ---
 

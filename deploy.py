@@ -69,6 +69,19 @@ short_description: AI Commerce Agent & Google UCP Direct Buying Simulator
             )
             print("   ✅ README.md uploaded to HuggingFace with Space metadata!")
 
+        # Upload docs/images folder if it exists
+        docs_dir = Path(__file__).parent / "docs"
+        if docs_dir.exists():
+            print("   📤 Uploading docs/ images to HuggingFace Space...")
+            api.upload_folder(
+                folder_path=str(docs_dir),
+                path_in_repo="docs",
+                repo_id=REPO_ID,
+                repo_type="space",
+                commit_message="Upload documentation screenshots"
+            )
+            print("   ✅ docs/ images uploaded!")
+
         print(f"\n✅ Deployment complete!")
         print(f"🔗 {HF_SPACE_URL}")
         print("⏳ Wait ~10 seconds, then Cmd+Shift+R to refresh the Space.")
