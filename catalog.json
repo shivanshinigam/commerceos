@@ -1,0 +1,5105 @@
+[
+  {
+    "id": "prod_001",
+    "emoji": "👟",
+    "title": "Nike Air Zoom Pegasus 41",
+    "brand": "Nike",
+    "category": "running_shoes",
+    "price": {
+      "nova": 8499,
+      "velomart": 7999,
+      "urbancart": 8299
+    },
+    "rating": 4.7,
+    "reviews": 3841,
+    "inventory": {
+      "nova": 12,
+      "velomart": 0,
+      "urbancart": 5
+    },
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "attrs": {
+      "surface": "road",
+      "use_case": "daily_running",
+      "cushion": "high",
+      "drop": "10mm"
+    },
+    "tags": [
+      "running",
+      "road",
+      "daily",
+      "nike",
+      "cushion"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "4 days"
+    },
+    "description": "Premium daily trainer with React foam cushioning. Responsive and durable."
+  },
+  {
+    "id": "prod_002",
+    "emoji": "👟",
+    "title": "Nike Air Zoom Pegasus 40",
+    "brand": "Nike",
+    "category": "running_shoes",
+    "price": {
+      "nova": 7499,
+      "velomart": 6999,
+      "urbancart": 7299
+    },
+    "rating": 4.6,
+    "reviews": 2847,
+    "inventory": {
+      "nova": 8,
+      "velomart": 15,
+      "urbancart": 7
+    },
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "attrs": {
+      "surface": "road",
+      "use_case": "daily_running",
+      "cushion": "high",
+      "drop": "10mm"
+    },
+    "tags": [
+      "running",
+      "road",
+      "daily",
+      "nike"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "3 days",
+      "urbancart": "4 days"
+    },
+    "description": "Best-selling daily trainer. Versatile, comfortable, long-lasting."
+  },
+  {
+    "id": "prod_003",
+    "emoji": "👟",
+    "title": "Adidas Ultraboost 23",
+    "brand": "Adidas",
+    "category": "running_shoes",
+    "price": {
+      "nova": 12999,
+      "velomart": 11999,
+      "urbancart": 12499
+    },
+    "rating": 4.8,
+    "reviews": 4912,
+    "inventory": {
+      "nova": 6,
+      "velomart": 10,
+      "urbancart": 3
+    },
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "attrs": {
+      "surface": "road",
+      "use_case": "daily_running",
+      "cushion": "very_high",
+      "drop": "10mm"
+    },
+    "tags": [
+      "running",
+      "boost",
+      "premium",
+      "road"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "Energy-returning Boost foam. The pinnacle of everyday running comfort."
+  },
+  {
+    "id": "prod_004",
+    "emoji": "👟",
+    "title": "Saucony Kinvara 14",
+    "brand": "Saucony",
+    "category": "running_shoes",
+    "price": {
+      "nova": 6499,
+      "velomart": 5999,
+      "urbancart": 6299
+    },
+    "rating": 4.5,
+    "reviews": 1203,
+    "inventory": {
+      "nova": 20,
+      "velomart": 18,
+      "urbancart": 12
+    },
+    "sizes": [
+      "6",
+      "7",
+      "7.5",
+      "8",
+      "9",
+      "10"
+    ],
+    "attrs": {
+      "surface": "road",
+      "use_case": "daily_running",
+      "cushion": "medium",
+      "drop": "4mm"
+    },
+    "tags": [
+      "running",
+      "road",
+      "lightweight",
+      "daily"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "3 days",
+      "urbancart": "5 days"
+    },
+    "description": "Lightweight road runner with PWRRUN cushioning. Fast and flexible."
+  },
+  {
+    "id": "prod_005",
+    "emoji": "👟",
+    "title": "ASICS Gel-Kayano 30",
+    "brand": "ASICS",
+    "category": "running_shoes",
+    "price": {
+      "nova": 10999,
+      "velomart": 9999,
+      "urbancart": 10499
+    },
+    "rating": 4.7,
+    "reviews": 2231,
+    "inventory": {
+      "nova": 5,
+      "velomart": 8,
+      "urbancart": 0
+    },
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "attrs": {
+      "surface": "road",
+      "use_case": "daily_running",
+      "cushion": "high",
+      "drop": "10mm",
+      "support": "stability"
+    },
+    "tags": [
+      "running",
+      "stability",
+      "road",
+      "premium"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "3 days",
+      "urbancart": null
+    },
+    "description": "Maximum stability and cushion for long-distance road running."
+  },
+  {
+    "id": "prod_006",
+    "emoji": "👟",
+    "title": "Reebok Floatride Energy 5",
+    "brand": "Reebok",
+    "category": "running_shoes",
+    "price": {
+      "nova": 5499,
+      "velomart": 4999,
+      "urbancart": 5299
+    },
+    "rating": 4.3,
+    "reviews": 891,
+    "inventory": {
+      "nova": 15,
+      "velomart": 20,
+      "urbancart": 10
+    },
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "attrs": {
+      "surface": "road",
+      "use_case": "daily_running",
+      "cushion": "medium",
+      "drop": "8mm"
+    },
+    "tags": [
+      "running",
+      "road",
+      "value",
+      "daily"
+    ],
+    "delivery": {
+      "nova": "3 days",
+      "velomart": "2 days",
+      "urbancart": "4 days"
+    },
+    "description": "Excellent value daily trainer with Floatride foam technology."
+  },
+  {
+    "id": "prod_007",
+    "emoji": "👟",
+    "title": "Brooks Ghost 15",
+    "brand": "Brooks",
+    "category": "running_shoes",
+    "price": {
+      "nova": 8999,
+      "velomart": 8499,
+      "urbancart": 8799
+    },
+    "rating": 4.6,
+    "reviews": 3102,
+    "inventory": {
+      "nova": 10,
+      "velomart": 12,
+      "urbancart": 8
+    },
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "attrs": {
+      "surface": "road",
+      "use_case": "daily_running",
+      "cushion": "high",
+      "drop": "12mm"
+    },
+    "tags": [
+      "running",
+      "road",
+      "neutral",
+      "daily"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "3 days",
+      "urbancart": "5 days"
+    },
+    "description": "DNA LOFT cushioning. Smooth and comfortable for everyday miles."
+  },
+  {
+    "id": "prod_008",
+    "emoji": "👟",
+    "title": "New Balance Fresh Foam X 1080v12",
+    "brand": "New Balance",
+    "category": "running_shoes",
+    "price": {
+      "nova": 13499,
+      "velomart": 12999,
+      "urbancart": 13299
+    },
+    "rating": 4.8,
+    "reviews": 2876,
+    "inventory": {
+      "nova": 4,
+      "velomart": 7,
+      "urbancart": 2
+    },
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "attrs": {
+      "surface": "road",
+      "use_case": "daily_running",
+      "cushion": "very_high",
+      "drop": "8mm"
+    },
+    "tags": [
+      "running",
+      "premium",
+      "road",
+      "plush"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "4 days"
+    },
+    "description": "The gold standard of plush daily running. Unmatched cushion and stability."
+  },
+  {
+    "id": "prod_009",
+    "emoji": "🥾",
+    "title": "Salomon Speedcross 6",
+    "brand": "Salomon",
+    "category": "trail_shoes",
+    "price": {
+      "nova": 9999,
+      "velomart": 9499,
+      "urbancart": 9799
+    },
+    "rating": 4.8,
+    "reviews": 1982,
+    "inventory": {
+      "nova": 8,
+      "velomart": 10,
+      "urbancart": 5
+    },
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "attrs": {
+      "surface": "trail",
+      "use_case": "trail_running",
+      "cushion": "medium",
+      "grip": "aggressive"
+    },
+    "tags": [
+      "trail",
+      "grip",
+      "running",
+      "outdoor"
+    ],
+    "delivery": {
+      "nova": "3 days",
+      "velomart": "3 days",
+      "urbancart": "5 days"
+    },
+    "description": "Legendary trail grip. Conquer any off-road terrain with confidence."
+  },
+  {
+    "id": "prod_010",
+    "emoji": "🥾",
+    "title": "Hoka Speedgoat 5",
+    "brand": "Hoka",
+    "category": "trail_shoes",
+    "price": {
+      "nova": 11999,
+      "velomart": 11499,
+      "urbancart": 11799
+    },
+    "rating": 4.7,
+    "reviews": 1547,
+    "inventory": {
+      "nova": 6,
+      "velomart": 9,
+      "urbancart": 3
+    },
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "attrs": {
+      "surface": "trail",
+      "use_case": "trail_running",
+      "cushion": "high",
+      "grip": "very_aggressive"
+    },
+    "tags": [
+      "trail",
+      "hoka",
+      "maximal",
+      "grip"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "3 days",
+      "urbancart": "5 days"
+    },
+    "description": "Maximum cushion + maximum grip. The trail shoe for ultra runners."
+  },
+  {
+    "id": "prod_011",
+    "emoji": "👟",
+    "title": "Nike Air Force 1 Low",
+    "brand": "Nike",
+    "category": "casual_shoes",
+    "price": {
+      "nova": 7999,
+      "velomart": 0,
+      "urbancart": 7699
+    },
+    "rating": 4.6,
+    "reviews": 8921,
+    "inventory": {
+      "nova": 20,
+      "velomart": 0,
+      "urbancart": 15
+    },
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "attrs": {
+      "surface": "street",
+      "use_case": "casual",
+      "material": "leather"
+    },
+    "tags": [
+      "casual",
+      "lifestyle",
+      "classic",
+      "nike"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "The classic silhouette. Timeless style for every occasion."
+  },
+  {
+    "id": "prod_012",
+    "emoji": "👟",
+    "title": "Adidas Stan Smith",
+    "brand": "Adidas",
+    "category": "casual_shoes",
+    "price": {
+      "nova": 6999,
+      "velomart": 0,
+      "urbancart": 6699
+    },
+    "rating": 4.5,
+    "reviews": 6234,
+    "inventory": {
+      "nova": 18,
+      "velomart": 0,
+      "urbancart": 22
+    },
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "attrs": {
+      "surface": "street",
+      "use_case": "casual",
+      "material": "leather"
+    },
+    "tags": [
+      "casual",
+      "classic",
+      "leather",
+      "adidas"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Minimalist tennis-inspired sneaker. Iconic and versatile."
+  },
+  {
+    "id": "prod_013",
+    "emoji": "👞",
+    "title": "Clarks Tilden Cap Oxford",
+    "brand": "Clarks",
+    "category": "formal_shoes",
+    "price": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 3999
+    },
+    "rating": 4.4,
+    "reviews": 892,
+    "inventory": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 10
+    },
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "attrs": {
+      "surface": "formal",
+      "use_case": "office",
+      "material": "leather"
+    },
+    "tags": [
+      "formal",
+      "leather",
+      "office",
+      "oxford"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": null,
+      "urbancart": "4 days"
+    },
+    "description": "Premium leather oxford. Professional elegance for every meeting."
+  },
+  {
+    "id": "prod_014",
+    "emoji": "💻",
+    "title": "Lenovo ThinkPad X1 Carbon Gen 11",
+    "brand": "Lenovo",
+    "category": "laptop",
+    "price": {
+      "nova": 74999,
+      "velomart": 0,
+      "urbancart": 72999
+    },
+    "rating": 4.8,
+    "reviews": 2341,
+    "inventory": {
+      "nova": 5,
+      "velomart": 0,
+      "urbancart": 3
+    },
+    "sizes": [
+      "14\""
+    ],
+    "attrs": {
+      "cpu": "Intel i7-1365U",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "gpu": "Intel Iris Xe",
+      "battery": "15hrs",
+      "weight": "1.12kg",
+      "use_case": "professional"
+    },
+    "tags": [
+      "laptop",
+      "ultrabook",
+      "professional",
+      "lightweight"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Ultimate business ultrabook. Featherlight, powerful, military-grade durability."
+  },
+  {
+    "id": "prod_015",
+    "emoji": "💻",
+    "title": "Dell XPS 15 OLED",
+    "brand": "Dell",
+    "category": "laptop",
+    "price": {
+      "nova": 94999,
+      "velomart": 0,
+      "urbancart": 92999
+    },
+    "rating": 4.7,
+    "reviews": 1876,
+    "inventory": {
+      "nova": 4,
+      "velomart": 0,
+      "urbancart": 2
+    },
+    "sizes": [
+      "15\""
+    ],
+    "attrs": {
+      "cpu": "Intel i9-13900H",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "gpu": "NVIDIA RTX 4060",
+      "battery": "13hrs",
+      "weight": "1.86kg",
+      "use_case": "creative"
+    },
+    "tags": [
+      "laptop",
+      "oled",
+      "creative",
+      "powerful"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Stunning OLED display meets RTX 4060 power. Creator and developer dream machine."
+  },
+  {
+    "id": "prod_016",
+    "emoji": "💻",
+    "title": "Asus ROG Zephyrus G14",
+    "brand": "Asus",
+    "category": "laptop",
+    "price": {
+      "nova": 79999,
+      "velomart": 0,
+      "urbancart": 77999
+    },
+    "rating": 4.7,
+    "reviews": 2134,
+    "inventory": {
+      "nova": 6,
+      "velomart": 0,
+      "urbancart": 4
+    },
+    "sizes": [
+      "14\""
+    ],
+    "attrs": {
+      "cpu": "AMD Ryzen 9 7940HS",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "gpu": "NVIDIA RTX 4060",
+      "battery": "10hrs",
+      "weight": "1.65kg",
+      "use_case": "gaming,ml"
+    },
+    "tags": [
+      "laptop",
+      "gaming",
+      "amd",
+      "ml",
+      "portable"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Compact gaming beast with 120Hz display. Also excellent for ML workloads."
+  },
+  {
+    "id": "prod_017",
+    "emoji": "💻",
+    "title": "MacBook Air M2",
+    "brand": "Apple",
+    "category": "laptop",
+    "price": {
+      "nova": 89999,
+      "velomart": 0,
+      "urbancart": 87999
+    },
+    "rating": 4.9,
+    "reviews": 8412,
+    "inventory": {
+      "nova": 10,
+      "velomart": 0,
+      "urbancart": 8
+    },
+    "sizes": [
+      "13\""
+    ],
+    "attrs": {
+      "cpu": "Apple M2",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "gpu": "Apple M2 GPU 10-core",
+      "battery": "18hrs",
+      "weight": "1.24kg",
+      "use_case": "general,creative"
+    },
+    "tags": [
+      "laptop",
+      "apple",
+      "m2",
+      "silent",
+      "lightweight"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Fanless design, all-day battery, blazing fast. The gold standard of ultrabooks."
+  },
+  {
+    "id": "prod_018",
+    "emoji": "💻",
+    "title": "MacBook Pro M3 Pro",
+    "brand": "Apple",
+    "category": "laptop",
+    "price": {
+      "nova": 149999,
+      "velomart": 0,
+      "urbancart": 147999
+    },
+    "rating": 4.9,
+    "reviews": 3892,
+    "inventory": {
+      "nova": 4,
+      "velomart": 0,
+      "urbancart": 3
+    },
+    "sizes": [
+      "14\""
+    ],
+    "attrs": {
+      "cpu": "Apple M3 Pro",
+      "ram": "36GB",
+      "storage": "1TB SSD",
+      "gpu": "M3 Pro GPU 18-core",
+      "battery": "22hrs",
+      "weight": "1.61kg",
+      "use_case": "professional,ml,creative"
+    },
+    "tags": [
+      "laptop",
+      "apple",
+      "m3",
+      "pro",
+      "ml"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "The ultimate laptop for professional ML, video editing, and development."
+  },
+  {
+    "id": "prod_019",
+    "emoji": "💻",
+    "title": "Acer Swift 3",
+    "brand": "Acer",
+    "category": "laptop",
+    "price": {
+      "nova": 39999,
+      "velomart": 0,
+      "urbancart": 37999
+    },
+    "rating": 4.3,
+    "reviews": 1432,
+    "inventory": {
+      "nova": 15,
+      "velomart": 0,
+      "urbancart": 12
+    },
+    "sizes": [
+      "14\""
+    ],
+    "attrs": {
+      "cpu": "Intel i5-1240P",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "gpu": "Intel Iris Xe",
+      "battery": "12hrs",
+      "weight": "1.25kg",
+      "use_case": "general,student"
+    },
+    "tags": [
+      "laptop",
+      "budget",
+      "student",
+      "lightweight"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Slim, affordable, and capable. Great student or everyday laptop."
+  },
+  {
+    "id": "prod_020",
+    "emoji": "💻",
+    "title": "HP Pavilion 15",
+    "brand": "HP",
+    "category": "laptop",
+    "price": {
+      "nova": 45999,
+      "velomart": 0,
+      "urbancart": 44999
+    },
+    "rating": 4.2,
+    "reviews": 2108,
+    "inventory": {
+      "nova": 20,
+      "velomart": 0,
+      "urbancart": 18
+    },
+    "sizes": [
+      "15\""
+    ],
+    "attrs": {
+      "cpu": "AMD Ryzen 5 7530U",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "gpu": "AMD Radeon",
+      "battery": "10hrs",
+      "weight": "1.75kg",
+      "use_case": "general,student"
+    },
+    "tags": [
+      "laptop",
+      "hp",
+      "budget",
+      "amd"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Solid everyday laptop with Ryzen processor and Full HD display."
+  },
+  {
+    "id": "prod_021",
+    "emoji": "💻",
+    "title": "Lenovo IdeaPad Gaming 3",
+    "brand": "Lenovo",
+    "category": "laptop",
+    "price": {
+      "nova": 55999,
+      "velomart": 0,
+      "urbancart": 53999
+    },
+    "rating": 4.4,
+    "reviews": 1876,
+    "inventory": {
+      "nova": 12,
+      "velomart": 0,
+      "urbancart": 10
+    },
+    "sizes": [
+      "15\""
+    ],
+    "attrs": {
+      "cpu": "AMD Ryzen 5 6600H",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "gpu": "NVIDIA RTX 3050",
+      "battery": "8hrs",
+      "weight": "2.2kg",
+      "use_case": "gaming,ml"
+    },
+    "tags": [
+      "laptop",
+      "gaming",
+      "rtx",
+      "ml",
+      "value"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "RTX 3050 at a budget price. Entry-level ML and gaming capability."
+  },
+  {
+    "id": "prod_022",
+    "emoji": "💻",
+    "title": "MSI Creator M16",
+    "brand": "MSI",
+    "category": "laptop",
+    "price": {
+      "nova": 69999,
+      "velomart": 0,
+      "urbancart": 67999
+    },
+    "rating": 4.5,
+    "reviews": 987,
+    "inventory": {
+      "nova": 6,
+      "velomart": 0,
+      "urbancart": 5
+    },
+    "sizes": [
+      "16\""
+    ],
+    "attrs": {
+      "cpu": "Intel i7-12700H",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "gpu": "NVIDIA RTX 3060",
+      "battery": "10hrs",
+      "weight": "2.0kg",
+      "use_case": "creative,ml"
+    },
+    "tags": [
+      "laptop",
+      "creator",
+      "ml",
+      "rtx"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Creator laptop with RTX 3060 and QHD+ display. Built for ML and content creation."
+  },
+  {
+    "id": "prod_023",
+    "emoji": "🎧",
+    "title": "Sony WH-1000XM5",
+    "brand": "Sony",
+    "category": "headphones",
+    "price": {
+      "nova": 26999,
+      "velomart": 24999,
+      "urbancart": 25999
+    },
+    "rating": 4.9,
+    "reviews": 12847,
+    "inventory": {
+      "nova": 15,
+      "velomart": 12,
+      "urbancart": 20
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "over_ear",
+      "anc": true,
+      "battery": "30hrs",
+      "connectivity": "bluetooth_5.2",
+      "codec": "LDAC",
+      "use_case": "travel,work"
+    },
+    "tags": [
+      "headphones",
+      "anc",
+      "premium",
+      "sony",
+      "wireless"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "Industry-leading ANC, 30hr battery, crystal clear calls. The benchmark ANC headphone."
+  },
+  {
+    "id": "prod_024",
+    "emoji": "🎧",
+    "title": "Bose QuietComfort 45",
+    "brand": "Bose",
+    "category": "headphones",
+    "price": {
+      "nova": 24999,
+      "velomart": 22999,
+      "urbancart": 23999
+    },
+    "rating": 4.7,
+    "reviews": 8923,
+    "inventory": {
+      "nova": 12,
+      "velomart": 10,
+      "urbancart": 15
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "over_ear",
+      "anc": true,
+      "battery": "24hrs",
+      "connectivity": "bluetooth_5.1",
+      "use_case": "travel,work"
+    },
+    "tags": [
+      "headphones",
+      "anc",
+      "bose",
+      "wireless",
+      "comfortable"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "World-class noise cancellation with 24hr battery. Ultimate travel companion."
+  },
+  {
+    "id": "prod_025",
+    "emoji": "🎧",
+    "title": "JBL Live 770NC",
+    "brand": "JBL",
+    "category": "headphones",
+    "price": {
+      "nova": 8999,
+      "velomart": 7999,
+      "urbancart": 8499
+    },
+    "rating": 4.5,
+    "reviews": 4231,
+    "inventory": {
+      "nova": 20,
+      "velomart": 18,
+      "urbancart": 25
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "over_ear",
+      "anc": true,
+      "battery": "65hrs",
+      "connectivity": "bluetooth_5.3",
+      "use_case": "music,work"
+    },
+    "tags": [
+      "headphones",
+      "anc",
+      "jbl",
+      "long_battery",
+      "value"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "Incredible 65-hour battery with ANC. Best battery life in its class."
+  },
+  {
+    "id": "prod_026",
+    "emoji": "🎧",
+    "title": "Sennheiser Momentum 4 Wireless",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "price": {
+      "nova": 22999,
+      "velomart": 20999,
+      "urbancart": 21999
+    },
+    "rating": 4.7,
+    "reviews": 2891,
+    "inventory": {
+      "nova": 10,
+      "velomart": 8,
+      "urbancart": 12
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "over_ear",
+      "anc": true,
+      "battery": "60hrs",
+      "connectivity": "bluetooth_5.2",
+      "use_case": "music,audiophile"
+    },
+    "tags": [
+      "headphones",
+      "audiophile",
+      "premium",
+      "wireless",
+      "battery"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "3 days",
+      "urbancart": "3 days"
+    },
+    "description": "Audiophile-grade sound with 60hr battery. For those who demand the best."
+  },
+  {
+    "id": "prod_027",
+    "emoji": "🎧",
+    "title": "boAt Rockerz 550 Pro",
+    "brand": "boAt",
+    "category": "headphones",
+    "price": {
+      "nova": 1999,
+      "velomart": 1799,
+      "urbancart": 1899
+    },
+    "rating": 4.1,
+    "reviews": 23841,
+    "inventory": {
+      "nova": 50,
+      "velomart": 60,
+      "urbancart": 45
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "over_ear",
+      "anc": false,
+      "battery": "20hrs",
+      "connectivity": "bluetooth_5.0",
+      "use_case": "casual,music"
+    },
+    "tags": [
+      "headphones",
+      "budget",
+      "boat",
+      "wireless",
+      "india"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "Value pick. Solid bass, comfortable fit, great for everyday listening."
+  },
+  {
+    "id": "prod_028",
+    "emoji": "🎧",
+    "title": "Anker Soundcore Q45",
+    "brand": "Anker",
+    "category": "headphones",
+    "price": {
+      "nova": 3999,
+      "velomart": 3699,
+      "urbancart": 3899
+    },
+    "rating": 4.3,
+    "reviews": 7823,
+    "inventory": {
+      "nova": 30,
+      "velomart": 35,
+      "urbancart": 28
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "over_ear",
+      "anc": true,
+      "battery": "50hrs",
+      "connectivity": "bluetooth_5.3",
+      "use_case": "music,work"
+    },
+    "tags": [
+      "headphones",
+      "anc",
+      "value",
+      "long_battery"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "ANC + 50hr battery under ₹4,000. Exceptional value proposition."
+  },
+  {
+    "id": "prod_029",
+    "emoji": "🎧",
+    "title": "Jabra Evolve2 75",
+    "brand": "Jabra",
+    "category": "headphones",
+    "price": {
+      "nova": 18999,
+      "velomart": 0,
+      "urbancart": 17999
+    },
+    "rating": 4.6,
+    "reviews": 1823,
+    "inventory": {
+      "nova": 8,
+      "velomart": 0,
+      "urbancart": 7
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "over_ear",
+      "anc": true,
+      "battery": "36hrs",
+      "connectivity": "bluetooth_5.2",
+      "use_case": "work,meetings"
+    },
+    "tags": [
+      "headphones",
+      "professional",
+      "anc",
+      "wireless",
+      "calls"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Professional-grade calls and ANC. Built for power users and remote workers."
+  },
+  {
+    "id": "prod_030",
+    "emoji": "🎧",
+    "title": "Realme Buds Air 5 Pro",
+    "brand": "Realme",
+    "category": "earbuds",
+    "price": {
+      "nova": 3499,
+      "velomart": 3299,
+      "urbancart": 3399
+    },
+    "rating": 4.3,
+    "reviews": 9123,
+    "inventory": {
+      "nova": 40,
+      "velomart": 45,
+      "urbancart": 38
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "in_ear",
+      "anc": true,
+      "battery": "38hrs",
+      "connectivity": "bluetooth_5.3",
+      "use_case": "casual,sports"
+    },
+    "tags": [
+      "earbuds",
+      "anc",
+      "value",
+      "tws",
+      "realme"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "TWS with ANC and 38hr total battery. Great value under ₹3,500."
+  },
+  {
+    "id": "prod_031",
+    "emoji": "🎧",
+    "title": "Nothing Ear (2)",
+    "brand": "Nothing",
+    "category": "earbuds",
+    "price": {
+      "nova": 8999,
+      "velomart": 8499,
+      "urbancart": 8799
+    },
+    "rating": 4.5,
+    "reviews": 5231,
+    "inventory": {
+      "nova": 20,
+      "velomart": 18,
+      "urbancart": 22
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "in_ear",
+      "anc": true,
+      "battery": "36hrs",
+      "connectivity": "bluetooth_5.3",
+      "use_case": "casual,music"
+    },
+    "tags": [
+      "earbuds",
+      "design",
+      "anc",
+      "nothing",
+      "premium"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "Transparent design, Hi-Res audio, custom ANC. A statement piece."
+  },
+  {
+    "id": "prod_032",
+    "emoji": "👔",
+    "title": "Peter England Black Formal Shirt",
+    "brand": "Peter England",
+    "category": "formal_shirt",
+    "price": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 1299
+    },
+    "rating": 4.3,
+    "reviews": 4821,
+    "inventory": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 30
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "attrs": {
+      "color": "black",
+      "material": "cotton_blend",
+      "fit": "regular",
+      "use_case": "office,formal"
+    },
+    "tags": [
+      "formal",
+      "shirt",
+      "black",
+      "office",
+      "cotton"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Classic black formal shirt. Cotton-blend fabric, regular fit for everyday office wear."
+  },
+  {
+    "id": "prod_033",
+    "emoji": "👔",
+    "title": "Van Heusen Slim Fit Formal Shirt",
+    "brand": "Van Heusen",
+    "category": "formal_shirt",
+    "price": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 1799
+    },
+    "rating": 4.5,
+    "reviews": 7823,
+    "inventory": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 25
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "attrs": {
+      "color": "black",
+      "material": "cotton",
+      "fit": "slim",
+      "use_case": "office,formal"
+    },
+    "tags": [
+      "formal",
+      "shirt",
+      "slim",
+      "black",
+      "premium"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Slim-fit premium cotton. Wrinkle-resistant and professional all day."
+  },
+  {
+    "id": "prod_034",
+    "emoji": "👔",
+    "title": "Arrow Black Formal Shirt",
+    "brand": "Arrow",
+    "category": "formal_shirt",
+    "price": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 2299
+    },
+    "rating": 4.6,
+    "reviews": 3412,
+    "inventory": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 20
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "attrs": {
+      "color": "black",
+      "material": "cotton",
+      "fit": "regular",
+      "use_case": "office,formal"
+    },
+    "tags": [
+      "formal",
+      "shirt",
+      "black",
+      "premium",
+      "arrow"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Premium 100% cotton formal. Arrow's signature fit and finish."
+  },
+  {
+    "id": "prod_035",
+    "emoji": "👔",
+    "title": "Louis Philippe Black Shirt",
+    "brand": "Louis Philippe",
+    "category": "formal_shirt",
+    "price": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 2499
+    },
+    "rating": 4.7,
+    "reviews": 2891,
+    "inventory": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 15
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "attrs": {
+      "color": "black",
+      "material": "premium_cotton",
+      "fit": "slim",
+      "use_case": "office,formal,party"
+    },
+    "tags": [
+      "formal",
+      "shirt",
+      "premium",
+      "lp",
+      "black"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Ultra-premium black shirt. Impeccable tailoring from one of India's finest brands."
+  },
+  {
+    "id": "prod_036",
+    "emoji": "👔",
+    "title": "H&M Slim Fit Black Shirt",
+    "brand": "H&M",
+    "category": "formal_shirt",
+    "price": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 999
+    },
+    "rating": 4.2,
+    "reviews": 6231,
+    "inventory": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 40
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "attrs": {
+      "color": "black",
+      "material": "cotton_poly",
+      "fit": "slim",
+      "use_case": "casual_formal"
+    },
+    "tags": [
+      "formal",
+      "shirt",
+      "affordable",
+      "black",
+      "hm"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Affordable slim-fit black shirt. Great everyday option from H&M."
+  },
+  {
+    "id": "prod_037",
+    "emoji": "📱",
+    "title": "iPhone 15 Pro",
+    "brand": "Apple",
+    "category": "smartphone",
+    "price": {
+      "nova": 99999,
+      "velomart": 0,
+      "urbancart": 97999
+    },
+    "rating": 4.8,
+    "reviews": 18923,
+    "inventory": {
+      "nova": 20,
+      "velomart": 0,
+      "urbancart": 15
+    },
+    "sizes": [
+      "128GB",
+      "256GB",
+      "512GB"
+    ],
+    "attrs": {
+      "os": "iOS",
+      "chip": "A17 Pro",
+      "camera": "48MP",
+      "battery": "4422mAh",
+      "display": "6.1\" OLED"
+    },
+    "tags": [
+      "smartphone",
+      "iphone",
+      "premium",
+      "apple",
+      "titanium"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Titanium frame. A17 Pro chip. Pro camera system. The most capable iPhone ever."
+  },
+  {
+    "id": "prod_038",
+    "emoji": "📱",
+    "title": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "price": {
+      "nova": 109999,
+      "velomart": 0,
+      "urbancart": 107999
+    },
+    "rating": 4.8,
+    "reviews": 12847,
+    "inventory": {
+      "nova": 18,
+      "velomart": 0,
+      "urbancart": 12
+    },
+    "sizes": [
+      "256GB",
+      "512GB",
+      "1TB"
+    ],
+    "attrs": {
+      "os": "Android",
+      "chip": "Snapdragon 8 Gen 3",
+      "camera": "200MP",
+      "battery": "5000mAh",
+      "display": "6.8\" AMOLED"
+    },
+    "tags": [
+      "smartphone",
+      "samsung",
+      "ultra",
+      "s-pen",
+      "premium"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "S Pen, 200MP camera, 45W charging. The ultimate Android powerhouse."
+  },
+  {
+    "id": "prod_039",
+    "emoji": "📱",
+    "title": "OnePlus 12",
+    "brand": "OnePlus",
+    "category": "smartphone",
+    "price": {
+      "nova": 59999,
+      "velomart": 57999,
+      "urbancart": 58999
+    },
+    "rating": 4.7,
+    "reviews": 8923,
+    "inventory": {
+      "nova": 25,
+      "velomart": 20,
+      "urbancart": 22
+    },
+    "sizes": [
+      "256GB",
+      "512GB"
+    ],
+    "attrs": {
+      "os": "Android",
+      "chip": "Snapdragon 8 Gen 3",
+      "camera": "50MP",
+      "battery": "5400mAh",
+      "display": "6.82\" AMOLED"
+    },
+    "tags": [
+      "smartphone",
+      "oneplus",
+      "fast",
+      "battery",
+      "value"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "100W charging fills in 25 minutes. Hasselblad camera. No compromises."
+  },
+  {
+    "id": "prod_040",
+    "emoji": "📱",
+    "title": "Realme GT 5 Pro",
+    "brand": "Realme",
+    "category": "smartphone",
+    "price": {
+      "nova": 35999,
+      "velomart": 33999,
+      "urbancart": 34999
+    },
+    "rating": 4.5,
+    "reviews": 5234,
+    "inventory": {
+      "nova": 30,
+      "velomart": 28,
+      "urbancart": 25
+    },
+    "sizes": [
+      "128GB",
+      "256GB"
+    ],
+    "attrs": {
+      "os": "Android",
+      "chip": "Snapdragon 8 Gen 2",
+      "camera": "50MP",
+      "battery": "5400mAh",
+      "display": "6.78\" AMOLED"
+    },
+    "tags": [
+      "smartphone",
+      "realme",
+      "performance",
+      "value"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "Flagship chip at mid-range price. Gaming and photography beast."
+  },
+  {
+    "id": "prod_041",
+    "emoji": "⌚",
+    "title": "Garmin Forerunner 265",
+    "brand": "Garmin",
+    "category": "smartwatch",
+    "price": {
+      "nova": 34999,
+      "velomart": 33999,
+      "urbancart": 0
+    },
+    "rating": 4.7,
+    "reviews": 2341,
+    "inventory": {
+      "nova": 10,
+      "velomart": 12,
+      "urbancart": 0
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "use_case": "running,fitness",
+      "gps": true,
+      "battery": "13 days",
+      "display": "AMOLED"
+    },
+    "tags": [
+      "smartwatch",
+      "garmin",
+      "running",
+      "gps",
+      "fitness"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": null
+    },
+    "description": "Built for runners. Advanced metrics, AMOLED display, GPS, 13-day battery."
+  },
+  {
+    "id": "prod_042",
+    "emoji": "⌚",
+    "title": "Apple Watch Series 9",
+    "brand": "Apple",
+    "category": "smartwatch",
+    "price": {
+      "nova": 41999,
+      "velomart": 0,
+      "urbancart": 40999
+    },
+    "rating": 4.8,
+    "reviews": 14231,
+    "inventory": {
+      "nova": 20,
+      "velomart": 0,
+      "urbancart": 15
+    },
+    "sizes": [
+      "41mm",
+      "45mm"
+    ],
+    "attrs": {
+      "use_case": "fitness,health",
+      "gps": true,
+      "battery": "18hrs",
+      "display": "Always-on LTPO"
+    },
+    "tags": [
+      "smartwatch",
+      "apple",
+      "health",
+      "fitness",
+      "ios"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Advanced health sensors, crash detection, and seamless iPhone integration."
+  },
+  {
+    "id": "prod_043",
+    "emoji": "🏋",
+    "title": "Boldfit Pro Gym Set",
+    "brand": "Boldfit",
+    "category": "fitness",
+    "price": {
+      "nova": 0,
+      "velomart": 2999,
+      "urbancart": 2799
+    },
+    "rating": 4.2,
+    "reviews": 3821,
+    "inventory": {
+      "nova": 0,
+      "velomart": 30,
+      "urbancart": 25
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "use_case": "gym",
+      "weight": "10kg",
+      "material": "rubber"
+    },
+    "tags": [
+      "fitness",
+      "gym",
+      "weights",
+      "home"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "Home gym dumbbell set. Perfect for beginners and intermediate trainers."
+  },
+  {
+    "id": "prod_044",
+    "emoji": "🎽",
+    "title": "Nike Dri-FIT Running Tee",
+    "brand": "Nike",
+    "category": "running_apparel",
+    "price": {
+      "nova": 1999,
+      "velomart": 1799,
+      "urbancart": 1899
+    },
+    "rating": 4.4,
+    "reviews": 8923,
+    "inventory": {
+      "nova": 50,
+      "velomart": 45,
+      "urbancart": 60
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "attrs": {
+      "material": "polyester",
+      "use_case": "running,gym",
+      "moisture_wicking": true
+    },
+    "tags": [
+      "apparel",
+      "running",
+      "dri-fit",
+      "nike",
+      "gym"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "Moisture-wicking Dri-FIT technology keeps you cool and dry during runs."
+  },
+  {
+    "id": "prod_045",
+    "emoji": "📺",
+    "title": "Samsung 55\" QLED 4K TV",
+    "brand": "Samsung",
+    "category": "tv",
+    "price": {
+      "nova": 54999,
+      "velomart": 0,
+      "urbancart": 52999
+    },
+    "rating": 4.7,
+    "reviews": 6823,
+    "inventory": {
+      "nova": 8,
+      "velomart": 0,
+      "urbancart": 6
+    },
+    "sizes": [
+      "55\""
+    ],
+    "attrs": {
+      "display": "QLED 4K",
+      "hdr": "HDR10+",
+      "smart": true,
+      "os": "Tizen"
+    },
+    "tags": [
+      "tv",
+      "samsung",
+      "qled",
+      "4k",
+      "smart"
+    ],
+    "delivery": {
+      "nova": "3 days",
+      "velomart": null,
+      "urbancart": "5 days"
+    },
+    "description": "Quantum dots deliver vibrant colors. Smart TV with all streaming apps."
+  },
+  {
+    "id": "prod_046",
+    "emoji": "🎮",
+    "title": "Sony PlayStation 5 Digital",
+    "brand": "Sony",
+    "category": "gaming_console",
+    "price": {
+      "nova": 39999,
+      "velomart": 0,
+      "urbancart": 38999
+    },
+    "rating": 4.9,
+    "reviews": 21823,
+    "inventory": {
+      "nova": 5,
+      "velomart": 0,
+      "urbancart": 3
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "storage": "825GB SSD",
+      "resolution": "4K",
+      "fps": "120fps"
+    },
+    "tags": [
+      "gaming",
+      "ps5",
+      "sony",
+      "console",
+      "4k"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Lightning-fast SSD, haptic feedback, 3D audio. The future of gaming."
+  },
+  {
+    "id": "prod_047",
+    "emoji": "🎒",
+    "title": "Wildcraft Alpha Laptop Backpack",
+    "brand": "Wildcraft",
+    "category": "backpack",
+    "price": {
+      "nova": 2499,
+      "velomart": 2299,
+      "urbancart": 2399
+    },
+    "rating": 4.5,
+    "reviews": 8921,
+    "inventory": {
+      "nova": 30,
+      "velomart": 35,
+      "urbancart": 40
+    },
+    "sizes": [
+      "30L"
+    ],
+    "attrs": {
+      "material": "nylon",
+      "laptop_size": "15\"",
+      "waterproof": true
+    },
+    "tags": [
+      "backpack",
+      "laptop",
+      "travel",
+      "wildcraft",
+      "outdoor"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "Durable 30L backpack. Fits 15\" laptop, multiple compartments, water-resistant."
+  },
+  {
+    "id": "prod_048",
+    "emoji": "⌨",
+    "title": "Logitech MX Keys Advanced",
+    "brand": "Logitech",
+    "category": "keyboard",
+    "price": {
+      "nova": 8999,
+      "velomart": 0,
+      "urbancart": 8499
+    },
+    "rating": 4.7,
+    "reviews": 4821,
+    "inventory": {
+      "nova": 20,
+      "velomart": 0,
+      "urbancart": 18
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "wireless",
+      "backlit": true,
+      "connectivity": "bluetooth,usb",
+      "battery": "10 days"
+    },
+    "tags": [
+      "keyboard",
+      "logitech",
+      "wireless",
+      "backlit",
+      "premium"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Premium typing experience. Backlit keys, multi-device, 10-day battery."
+  },
+  {
+    "id": "prod_049",
+    "emoji": "🖱",
+    "title": "Logitech MX Master 3S",
+    "brand": "Logitech",
+    "category": "mouse",
+    "price": {
+      "nova": 7999,
+      "velomart": 0,
+      "urbancart": 7699
+    },
+    "rating": 4.8,
+    "reviews": 9823,
+    "inventory": {
+      "nova": 25,
+      "velomart": 0,
+      "urbancart": 22
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "wireless",
+      "dpi": "8000",
+      "connectivity": "bluetooth,usb",
+      "battery": "70 days"
+    },
+    "tags": [
+      "mouse",
+      "logitech",
+      "wireless",
+      "premium",
+      "mx"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Whisper-quiet clicks, 8000 DPI, 70-day battery. The professional's mouse."
+  },
+  {
+    "id": "prod_050",
+    "emoji": "💡",
+    "title": "Philips Hue Starter Kit",
+    "brand": "Philips",
+    "category": "smart_home",
+    "price": {
+      "nova": 6999,
+      "velomart": 0,
+      "urbancart": 6599
+    },
+    "rating": 4.6,
+    "reviews": 3821,
+    "inventory": {
+      "nova": 15,
+      "velomart": 0,
+      "urbancart": 12
+    },
+    "sizes": [
+      "3 bulbs"
+    ],
+    "attrs": {
+      "connectivity": "zigbee,wifi",
+      "colors": "16 million",
+      "voice_control": true
+    },
+    "tags": [
+      "smart_home",
+      "light",
+      "philips",
+      "hue",
+      "voice"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "16 million colors. Works with Alexa, Google, Siri. Transform your home lighting."
+  },
+  {
+    "id": "prod_051",
+    "emoji": "🎧",
+    "title": "Boat Airdopes 141",
+    "brand": "boAt",
+    "category": "earbuds",
+    "price": {
+      "nova": 999,
+      "velomart": 899,
+      "urbancart": 949
+    },
+    "rating": 4,
+    "reviews": 43821,
+    "inventory": {
+      "nova": 100,
+      "velomart": 120,
+      "urbancart": 90
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "in_ear",
+      "anc": false,
+      "battery": "42hrs",
+      "connectivity": "bluetooth_5.0"
+    },
+    "tags": [
+      "earbuds",
+      "budget",
+      "boat",
+      "tws",
+      "value"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "Most popular budget TWS in India. 42hr total battery, ENx noise reduction."
+  },
+  {
+    "id": "prod_052",
+    "emoji": "🎧",
+    "title": "Sony WF-1000XM5",
+    "brand": "Sony",
+    "category": "earbuds",
+    "price": {
+      "nova": 18999,
+      "velomart": 17999,
+      "urbancart": 18499
+    },
+    "rating": 4.8,
+    "reviews": 7821,
+    "inventory": {
+      "nova": 15,
+      "velomart": 12,
+      "urbancart": 18
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "in_ear",
+      "anc": true,
+      "battery": "36hrs",
+      "connectivity": "bluetooth_5.3",
+      "codec": "LDAC"
+    },
+    "tags": [
+      "earbuds",
+      "sony",
+      "anc",
+      "premium",
+      "ldac"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "Industry-leading ANC in a compact form. Best-in-class earbuds."
+  },
+  {
+    "id": "prod_053",
+    "emoji": "👗",
+    "title": "Levi's 501 Jeans",
+    "brand": "Levi's",
+    "category": "clothing",
+    "price": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 3499
+    },
+    "rating": 4.6,
+    "reviews": 12841,
+    "inventory": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 35
+    },
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "attrs": {
+      "fit": "regular",
+      "material": "denim",
+      "use_case": "casual"
+    },
+    "tags": [
+      "jeans",
+      "levis",
+      "denim",
+      "casual",
+      "classic"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "The original 501. Straight fit, button fly, iconic American denim."
+  },
+  {
+    "id": "prod_054",
+    "emoji": "🧥",
+    "title": "H&M Puffer Jacket",
+    "brand": "H&M",
+    "category": "clothing",
+    "price": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 2999
+    },
+    "rating": 4.2,
+    "reviews": 4823,
+    "inventory": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 20
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "attrs": {
+      "material": "polyester",
+      "insulation": "synthetic",
+      "use_case": "winter,casual"
+    },
+    "tags": [
+      "jacket",
+      "winter",
+      "hm",
+      "puffer",
+      "casual"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Warm, lightweight puffer. Great winter casual layer."
+  },
+  {
+    "id": "prod_055",
+    "emoji": "👟",
+    "title": "Puma Softride Vital",
+    "brand": "Puma",
+    "category": "running_shoes",
+    "price": {
+      "nova": 3999,
+      "velomart": 3699,
+      "urbancart": 3899
+    },
+    "rating": 4.2,
+    "reviews": 5823,
+    "inventory": {
+      "nova": 25,
+      "velomart": 30,
+      "urbancart": 20
+    },
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "attrs": {
+      "surface": "road",
+      "use_case": "jogging",
+      "cushion": "medium"
+    },
+    "tags": [
+      "running",
+      "puma",
+      "budget",
+      "jogging",
+      "daily"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "3 days"
+    },
+    "description": "Soft foam cushioning at an accessible price. Perfect for daily jogs."
+  },
+  {
+    "id": "prod_056",
+    "emoji": "💻",
+    "title": "Lenovo LOQ 15 Gaming",
+    "brand": "Lenovo",
+    "category": "laptop",
+    "price": {
+      "nova": 57999,
+      "velomart": 0,
+      "urbancart": 55999
+    },
+    "rating": 4.5,
+    "reviews": 2341,
+    "inventory": {
+      "nova": 10,
+      "velomart": 0,
+      "urbancart": 8
+    },
+    "sizes": [
+      "15\""
+    ],
+    "attrs": {
+      "cpu": "AMD Ryzen 5 7745HX",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "gpu": "NVIDIA RTX 4050",
+      "battery": "8hrs",
+      "weight": "2.38kg",
+      "use_case": "gaming,ml"
+    },
+    "tags": [
+      "laptop",
+      "gaming",
+      "ml",
+      "lenovo",
+      "rtx4050"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "RTX 4050, DLSS 3, 165Hz display. Newest gen gaming at mid-range price."
+  },
+  {
+    "id": "prod_057",
+    "emoji": "📱",
+    "title": "Google Pixel 8a",
+    "brand": "Google",
+    "category": "smartphone",
+    "price": {
+      "nova": 42999,
+      "velomart": 0,
+      "urbancart": 41999
+    },
+    "rating": 4.6,
+    "reviews": 4231,
+    "inventory": {
+      "nova": 18,
+      "velomart": 0,
+      "urbancart": 15
+    },
+    "sizes": [
+      "128GB",
+      "256GB"
+    ],
+    "attrs": {
+      "os": "Android",
+      "chip": "Tensor G3",
+      "camera": "64MP",
+      "battery": "4492mAh",
+      "display": "6.1\" OLED"
+    },
+    "tags": [
+      "smartphone",
+      "pixel",
+      "google",
+      "camera",
+      "ai"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Best computational photography under ₹45k. 7 years of updates guaranteed."
+  },
+  {
+    "id": "prod_058",
+    "emoji": "🎧",
+    "title": "Skullcandy Crusher ANC 2",
+    "brand": "Skullcandy",
+    "category": "headphones",
+    "price": {
+      "nova": 7999,
+      "velomart": 7499,
+      "urbancart": 7799
+    },
+    "rating": 4.4,
+    "reviews": 2341,
+    "inventory": {
+      "nova": 15,
+      "velomart": 18,
+      "urbancart": 20
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "over_ear",
+      "anc": true,
+      "battery": "50hrs",
+      "connectivity": "bluetooth_5.2",
+      "bass_boost": true
+    },
+    "tags": [
+      "headphones",
+      "bass",
+      "anc",
+      "skullcandy",
+      "wireless"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "Adjustable bass immersion, 50hr battery, ANC. For bass lovers."
+  },
+  {
+    "id": "prod_059",
+    "emoji": "👟",
+    "title": "Adidas Duramo SL",
+    "brand": "Adidas",
+    "category": "running_shoes",
+    "price": {
+      "nova": 3999,
+      "velomart": 3499,
+      "urbancart": 3799
+    },
+    "rating": 4.2,
+    "reviews": 9823,
+    "inventory": {
+      "nova": 30,
+      "velomart": 35,
+      "urbancart": 28
+    },
+    "sizes": [
+      "6",
+      "7",
+      "7.5",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "attrs": {
+      "surface": "road",
+      "use_case": "jogging,daily",
+      "cushion": "medium"
+    },
+    "tags": [
+      "running",
+      "adidas",
+      "budget",
+      "daily",
+      "lightweight"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "3 days"
+    },
+    "description": "Cloudfoam cushioning. Lightweight daily trainer from Adidas at budget price."
+  },
+  {
+    "id": "prod_060",
+    "emoji": "💻",
+    "title": "HP OMEN 16",
+    "brand": "HP",
+    "category": "laptop",
+    "price": {
+      "nova": 89999,
+      "velomart": 0,
+      "urbancart": 87999
+    },
+    "rating": 4.6,
+    "reviews": 1823,
+    "inventory": {
+      "nova": 6,
+      "velomart": 0,
+      "urbancart": 5
+    },
+    "sizes": [
+      "16\""
+    ],
+    "attrs": {
+      "cpu": "Intel i7-13700HX",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "gpu": "NVIDIA RTX 4070",
+      "battery": "10hrs",
+      "weight": "2.47kg",
+      "use_case": "gaming,ml"
+    },
+    "tags": [
+      "laptop",
+      "gaming",
+      "ml",
+      "hp",
+      "rtx4070",
+      "premium"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "RTX 4070, 165Hz QHD, 13th-gen Intel. Powerhouse ML and gaming laptop."
+  },
+  {
+    "id": "prod_061",
+    "emoji": "🎒",
+    "title": "Skybags Campus Plus Backpack",
+    "brand": "Skybags",
+    "category": "backpack",
+    "price": {
+      "nova": 0,
+      "velomart": 1799,
+      "urbancart": 1699
+    },
+    "rating": 4.3,
+    "reviews": 6234,
+    "inventory": {
+      "nova": 0,
+      "velomart": 40,
+      "urbancart": 35
+    },
+    "sizes": [
+      "35L"
+    ],
+    "attrs": {
+      "material": "polyester",
+      "laptop_size": "15\"",
+      "waterproof": false
+    },
+    "tags": [
+      "backpack",
+      "college",
+      "skybags",
+      "student"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "Spacious 35L college backpack. Great for students and commuters."
+  },
+  {
+    "id": "prod_062",
+    "emoji": "⌚",
+    "title": "boAt Wave Select",
+    "brand": "boAt",
+    "category": "smartwatch",
+    "price": {
+      "nova": 0,
+      "velomart": 1499,
+      "urbancart": 1399
+    },
+    "rating": 4,
+    "reviews": 12841,
+    "inventory": {
+      "nova": 0,
+      "velomart": 50,
+      "urbancart": 45
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "use_case": "fitness",
+      "gps": false,
+      "battery": "7 days",
+      "display": "LCD"
+    },
+    "tags": [
+      "smartwatch",
+      "budget",
+      "boat",
+      "fitness",
+      "value"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "Affordable smartwatch with 100+ sports modes and 7-day battery."
+  },
+  {
+    "id": "prod_063",
+    "emoji": "🖥",
+    "title": "Dell UltraSharp 27\" 4K Monitor",
+    "brand": "Dell",
+    "category": "monitor",
+    "price": {
+      "nova": 39999,
+      "velomart": 0,
+      "urbancart": 37999
+    },
+    "rating": 4.8,
+    "reviews": 4231,
+    "inventory": {
+      "nova": 8,
+      "velomart": 0,
+      "urbancart": 6
+    },
+    "sizes": [
+      "27\""
+    ],
+    "attrs": {
+      "resolution": "4K UHD",
+      "panel": "IPS",
+      "refresh": "60Hz",
+      "use_case": "professional,creative"
+    },
+    "tags": [
+      "monitor",
+      "dell",
+      "4k",
+      "professional",
+      "ips"
+    ],
+    "delivery": {
+      "nova": "3 days",
+      "velomart": null,
+      "urbancart": "5 days"
+    },
+    "description": "Factory-calibrated 4K IPS. True-to-life colors for professionals."
+  },
+  {
+    "id": "prod_064",
+    "emoji": "🖥",
+    "title": "LG 32\" UltraWide 5K Monitor",
+    "brand": "LG",
+    "category": "monitor",
+    "price": {
+      "nova": 89999,
+      "velomart": 0,
+      "urbancart": 87999
+    },
+    "rating": 4.7,
+    "reviews": 1823,
+    "inventory": {
+      "nova": 4,
+      "velomart": 0,
+      "urbancart": 3
+    },
+    "sizes": [
+      "32\""
+    ],
+    "attrs": {
+      "resolution": "5K Ultrawide",
+      "panel": "IPS",
+      "refresh": "60Hz",
+      "use_case": "creative,professional"
+    },
+    "tags": [
+      "monitor",
+      "lg",
+      "ultrawide",
+      "5k",
+      "creator"
+    ],
+    "delivery": {
+      "nova": "3 days",
+      "velomart": null,
+      "urbancart": "5 days"
+    },
+    "description": "Immersive ultrawide 5K. Split-screen multitasking redefined."
+  },
+  {
+    "id": "prod_065",
+    "emoji": "🎮",
+    "title": "Xbox Series X",
+    "brand": "Microsoft",
+    "category": "gaming_console",
+    "price": {
+      "nova": 41999,
+      "velomart": 0,
+      "urbancart": 40999
+    },
+    "rating": 4.8,
+    "reviews": 14231,
+    "inventory": {
+      "nova": 6,
+      "velomart": 0,
+      "urbancart": 5
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "storage": "1TB SSD",
+      "resolution": "4K",
+      "fps": "120fps",
+      "gpu": "12 TFLOPS"
+    },
+    "tags": [
+      "gaming",
+      "xbox",
+      "microsoft",
+      "4k",
+      "console"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Most powerful Xbox ever. 4K gaming, Game Pass, backwards compatible."
+  },
+  {
+    "id": "prod_066",
+    "emoji": "📸",
+    "title": "Sony Alpha ZV-E10",
+    "brand": "Sony",
+    "category": "camera",
+    "price": {
+      "nova": 49999,
+      "velomart": 0,
+      "urbancart": 47999
+    },
+    "rating": 4.7,
+    "reviews": 3821,
+    "inventory": {
+      "nova": 8,
+      "velomart": 0,
+      "urbancart": 6
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "sensor": "APS-C",
+      "video": "4K",
+      "use_case": "content_creation,vlogging"
+    },
+    "tags": [
+      "camera",
+      "sony",
+      "vlog",
+      "content",
+      "mirrorless"
+    ],
+    "delivery": {
+      "nova": "3 days",
+      "velomart": null,
+      "urbancart": "5 days"
+    },
+    "description": "Perfect for content creators and vloggers. 4K video, interchangeable lenses."
+  },
+  {
+    "id": "prod_067",
+    "emoji": "🔊",
+    "title": "JBL Flip 6 Speaker",
+    "brand": "JBL",
+    "category": "bluetooth_speaker",
+    "price": {
+      "nova": 8999,
+      "velomart": 8499,
+      "urbancart": 8799
+    },
+    "rating": 4.7,
+    "reviews": 19823,
+    "inventory": {
+      "nova": 30,
+      "velomart": 28,
+      "urbancart": 35
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "waterproof": "IP67",
+      "battery": "12hrs",
+      "connectivity": "bluetooth_5.1",
+      "bass_boost": true
+    },
+    "tags": [
+      "speaker",
+      "bluetooth",
+      "waterproof",
+      "jbl",
+      "outdoor"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "IP67 waterproof. Bold JBL Pro sound. Take the party anywhere."
+  },
+  {
+    "id": "prod_068",
+    "emoji": "🔊",
+    "title": "Bose SoundLink Revolve+",
+    "brand": "Bose",
+    "category": "bluetooth_speaker",
+    "price": {
+      "nova": 20999,
+      "velomart": 19999,
+      "urbancart": 20499
+    },
+    "rating": 4.6,
+    "reviews": 4821,
+    "inventory": {
+      "nova": 10,
+      "velomart": 12,
+      "urbancart": 8
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "waterproof": "IPX4",
+      "battery": "17hrs",
+      "connectivity": "bluetooth_4.2",
+      "sound": "360"
+    },
+    "tags": [
+      "speaker",
+      "bluetooth",
+      "bose",
+      "360",
+      "premium"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "360-degree sound, premium build, 17-hour battery. The Bose experience."
+  },
+  {
+    "id": "prod_069",
+    "emoji": "🏋",
+    "title": "Boldfit Resistance Bands Set",
+    "brand": "Boldfit",
+    "category": "fitness",
+    "price": {
+      "nova": 0,
+      "velomart": 599,
+      "urbancart": 549
+    },
+    "rating": 4.3,
+    "reviews": 28921,
+    "inventory": {
+      "nova": 0,
+      "velomart": 200,
+      "urbancart": 180
+    },
+    "sizes": [
+      "5 bands"
+    ],
+    "attrs": {
+      "material": "latex",
+      "use_case": "gym,home,rehab"
+    },
+    "tags": [
+      "fitness",
+      "bands",
+      "home_gym",
+      "budget",
+      "resistance"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "5-piece progressive resistance set. Perfect for home workouts and mobility."
+  },
+  {
+    "id": "prod_070",
+    "emoji": "🏃",
+    "title": "Nike Dri-FIT ADV Running Shorts",
+    "brand": "Nike",
+    "category": "running_apparel",
+    "price": {
+      "nova": 2499,
+      "velomart": 2299,
+      "urbancart": 2399
+    },
+    "rating": 4.5,
+    "reviews": 4821,
+    "inventory": {
+      "nova": 30,
+      "velomart": 35,
+      "urbancart": 28
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "attrs": {
+      "material": "polyester",
+      "use_case": "running",
+      "liner": "built_in"
+    },
+    "tags": [
+      "running",
+      "shorts",
+      "nike",
+      "dri-fit",
+      "performance"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "Built-in liner, 7\" inseam, Dri-FIT tech. Purpose-built for speed."
+  },
+  {
+    "id": "prod_071",
+    "emoji": "📱",
+    "title": "Nothing Phone (2a)",
+    "brand": "Nothing",
+    "category": "smartphone",
+    "price": {
+      "nova": 22999,
+      "velomart": 21999,
+      "urbancart": 22499
+    },
+    "rating": 4.5,
+    "reviews": 7823,
+    "inventory": {
+      "nova": 25,
+      "velomart": 22,
+      "urbancart": 20
+    },
+    "sizes": [
+      "128GB",
+      "256GB"
+    ],
+    "attrs": {
+      "os": "Android",
+      "chip": "Dimensity 7200 Pro",
+      "camera": "50MP",
+      "battery": "5000mAh",
+      "display": "6.7\" AMOLED"
+    },
+    "tags": [
+      "smartphone",
+      "nothing",
+      "glyph",
+      "design",
+      "value"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "Glyph Interface, 5000mAh, clean Nothing OS. Refreshingly different."
+  },
+  {
+    "id": "prod_072",
+    "emoji": "💻",
+    "title": "Asus Vivobook 15",
+    "brand": "Asus",
+    "category": "laptop",
+    "price": {
+      "nova": 38999,
+      "velomart": 0,
+      "urbancart": 36999
+    },
+    "rating": 4.3,
+    "reviews": 3823,
+    "inventory": {
+      "nova": 15,
+      "velomart": 0,
+      "urbancart": 12
+    },
+    "sizes": [
+      "15\""
+    ],
+    "attrs": {
+      "cpu": "Intel i5-1235U",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "gpu": "Intel Iris Xe",
+      "battery": "10hrs",
+      "weight": "1.7kg",
+      "use_case": "student,general"
+    },
+    "tags": [
+      "laptop",
+      "asus",
+      "student",
+      "budget",
+      "vivobook"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Slim chassis, solid performance, great value. Student's ideal companion."
+  },
+  {
+    "id": "prod_073",
+    "emoji": "🎧",
+    "title": "OnePlus Buds 3",
+    "brand": "OnePlus",
+    "category": "earbuds",
+    "price": {
+      "nova": 5499,
+      "velomart": 5199,
+      "urbancart": 5349
+    },
+    "rating": 4.4,
+    "reviews": 6234,
+    "inventory": {
+      "nova": 30,
+      "velomart": 28,
+      "urbancart": 32
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "in_ear",
+      "anc": true,
+      "battery": "44hrs",
+      "connectivity": "bluetooth_5.3"
+    },
+    "tags": [
+      "earbuds",
+      "oneplus",
+      "anc",
+      "value",
+      "wireless"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "LHDC 5.0 codec, 49dB ANC, 44hr total battery. Outstanding value."
+  },
+  {
+    "id": "prod_074",
+    "emoji": "👟",
+    "title": "Merrell Moab 3",
+    "brand": "Merrell",
+    "category": "trail_shoes",
+    "price": {
+      "nova": 7999,
+      "velomart": 7499,
+      "urbancart": 7799
+    },
+    "rating": 4.6,
+    "reviews": 3821,
+    "inventory": {
+      "nova": 12,
+      "velomart": 15,
+      "urbancart": 8
+    },
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "attrs": {
+      "surface": "trail",
+      "use_case": "hiking,trail",
+      "waterproof": true,
+      "grip": "vibram"
+    },
+    "tags": [
+      "trail",
+      "hiking",
+      "waterproof",
+      "vibram",
+      "outdoor"
+    ],
+    "delivery": {
+      "nova": "3 days",
+      "velomart": "2 days",
+      "urbancart": "4 days"
+    },
+    "description": "Vibram outsole. Waterproof. Built for serious trail and hiking adventures."
+  },
+  {
+    "id": "prod_075",
+    "emoji": "📺",
+    "title": "LG C3 OLED 55\"",
+    "brand": "LG",
+    "category": "tv",
+    "price": {
+      "nova": 89999,
+      "velomart": 0,
+      "urbancart": 87999
+    },
+    "rating": 4.9,
+    "reviews": 8923,
+    "inventory": {
+      "nova": 5,
+      "velomart": 0,
+      "urbancart": 4
+    },
+    "sizes": [
+      "55\""
+    ],
+    "attrs": {
+      "display": "OLED 4K",
+      "hdr": "Dolby Vision,HDR10",
+      "smart": true,
+      "refresh": "120Hz"
+    },
+    "tags": [
+      "tv",
+      "oled",
+      "lg",
+      "4k",
+      "premium"
+    ],
+    "delivery": {
+      "nova": "3 days",
+      "velomart": null,
+      "urbancart": "5 days"
+    },
+    "description": "Self-lit OLED pixels, Dolby Vision, 120Hz. The reference TV for home theater."
+  },
+  {
+    "id": "prod_076",
+    "emoji": "🖱",
+    "title": "Razer DeathAdder V3",
+    "brand": "Razer",
+    "category": "mouse",
+    "price": {
+      "nova": 5499,
+      "velomart": 0,
+      "urbancart": 5299
+    },
+    "rating": 4.7,
+    "reviews": 6823,
+    "inventory": {
+      "nova": 20,
+      "velomart": 0,
+      "urbancart": 18
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "wired",
+      "dpi": "30000",
+      "sensor": "Focus Pro",
+      "use_case": "gaming"
+    },
+    "tags": [
+      "mouse",
+      "razer",
+      "gaming",
+      "ergonomic",
+      "precision"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Razer Focus Pro 30K sensor. Ergonomic precision for competitive gaming."
+  },
+  {
+    "id": "prod_077",
+    "emoji": "⌨",
+    "title": "Keychron K2 Mechanical",
+    "brand": "Keychron",
+    "category": "keyboard",
+    "price": {
+      "nova": 6499,
+      "velomart": 0,
+      "urbancart": 6299
+    },
+    "rating": 4.7,
+    "reviews": 9231,
+    "inventory": {
+      "nova": 15,
+      "velomart": 0,
+      "urbancart": 12
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "wireless",
+      "switch": "Gateron G Pro",
+      "backlit": true,
+      "connectivity": "bluetooth,usb"
+    },
+    "tags": [
+      "keyboard",
+      "mechanical",
+      "keychron",
+      "wireless",
+      "typing"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Wireless mechanical with Gateron switches. RGB backlight, great build."
+  },
+  {
+    "id": "prod_078",
+    "emoji": "📸",
+    "title": "Fujifilm Instax Mini 12",
+    "brand": "Fujifilm",
+    "category": "camera",
+    "price": {
+      "nova": 5999,
+      "velomart": 5699,
+      "urbancart": 5899
+    },
+    "rating": 4.5,
+    "reviews": 14231,
+    "inventory": {
+      "nova": 25,
+      "velomart": 30,
+      "urbancart": 20
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "instant",
+      "sensor": "analog",
+      "use_case": "casual,party"
+    },
+    "tags": [
+      "camera",
+      "instax",
+      "polaroid",
+      "fun",
+      "casual"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "Instant prints in seconds. Modern pastel design. Party and travel essential."
+  },
+  {
+    "id": "prod_079",
+    "emoji": "🔋",
+    "title": "Anker 737 Power Bank",
+    "brand": "Anker",
+    "category": "accessories",
+    "price": {
+      "nova": 6999,
+      "velomart": 6699,
+      "urbancart": 6899
+    },
+    "rating": 4.7,
+    "reviews": 7823,
+    "inventory": {
+      "nova": 25,
+      "velomart": 28,
+      "urbancart": 22
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "capacity": "24000mAh",
+      "output": "140W",
+      "ports": "USB-A,USB-C,USB-C"
+    },
+    "tags": [
+      "power_bank",
+      "anker",
+      "fast_charging",
+      "140w",
+      "travel"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "140W output, 24000mAh. Charges MacBook Pro in under an hour. Travel beast."
+  },
+  {
+    "id": "prod_080",
+    "emoji": "🧴",
+    "title": "Noise ColorFit Ultra 3",
+    "brand": "Noise",
+    "category": "smartwatch",
+    "price": {
+      "nova": 0,
+      "velomart": 2299,
+      "urbancart": 2199
+    },
+    "rating": 4.2,
+    "reviews": 18234,
+    "inventory": {
+      "nova": 0,
+      "velomart": 60,
+      "urbancart": 55
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "use_case": "fitness",
+      "gps": false,
+      "battery": "7 days",
+      "display": "AMOLED"
+    },
+    "tags": [
+      "smartwatch",
+      "noise",
+      "budget",
+      "fitness",
+      "amoled"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "AMOLED display, 150+ sports modes. Noise's best value smartwatch."
+  },
+  {
+    "id": "prod_081",
+    "emoji": "👔",
+    "title": "Zara Slim Fit Black Shirt",
+    "brand": "Zara",
+    "category": "formal_shirt",
+    "price": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 2199
+    },
+    "rating": 4.4,
+    "reviews": 5823,
+    "inventory": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 28
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "attrs": {
+      "color": "black",
+      "material": "cotton_blend",
+      "fit": "slim",
+      "use_case": "casual_formal"
+    },
+    "tags": [
+      "shirt",
+      "black",
+      "zara",
+      "slim",
+      "smart_casual"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "European styling, slim fit. Versatile for work and evenings."
+  },
+  {
+    "id": "prod_082",
+    "emoji": "🎧",
+    "title": "Boult Audio W40 ANC",
+    "brand": "Boult",
+    "category": "headphones",
+    "price": {
+      "nova": 2999,
+      "velomart": 2799,
+      "urbancart": 2899
+    },
+    "rating": 4.1,
+    "reviews": 12841,
+    "inventory": {
+      "nova": 40,
+      "velomart": 45,
+      "urbancart": 38
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "over_ear",
+      "anc": true,
+      "battery": "60hrs",
+      "connectivity": "bluetooth_5.3"
+    },
+    "tags": [
+      "headphones",
+      "budget",
+      "anc",
+      "value",
+      "india"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "ANC under ₹3000 with 60hr battery. Best budget ANC headphone in India."
+  },
+  {
+    "id": "prod_083",
+    "emoji": "💻",
+    "title": "Infinix INBook X2 Plus",
+    "brand": "Infinix",
+    "category": "laptop",
+    "price": {
+      "nova": 25999,
+      "velomart": 0,
+      "urbancart": 24999
+    },
+    "rating": 4.1,
+    "reviews": 2841,
+    "inventory": {
+      "nova": 20,
+      "velomart": 0,
+      "urbancart": 18
+    },
+    "sizes": [
+      "15\""
+    ],
+    "attrs": {
+      "cpu": "Intel i3-1215U",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "gpu": "Intel UHD",
+      "battery": "8hrs",
+      "weight": "1.5kg",
+      "use_case": "student"
+    },
+    "tags": [
+      "laptop",
+      "budget",
+      "student",
+      "infinix",
+      "affordable"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Slim, affordable, capable. The no-nonsense student laptop."
+  },
+  {
+    "id": "prod_084",
+    "emoji": "📱",
+    "title": "Motorola Edge 50 Ultra",
+    "brand": "Motorola",
+    "category": "smartphone",
+    "price": {
+      "nova": 39999,
+      "velomart": 37999,
+      "urbancart": 38999
+    },
+    "rating": 4.5,
+    "reviews": 4821,
+    "inventory": {
+      "nova": 20,
+      "velomart": 18,
+      "urbancart": 16
+    },
+    "sizes": [
+      "256GB"
+    ],
+    "attrs": {
+      "os": "Android",
+      "chip": "Snapdragon 8s Gen 3",
+      "camera": "50MP",
+      "battery": "4500mAh",
+      "display": "6.67\" pOLED"
+    },
+    "tags": [
+      "smartphone",
+      "motorola",
+      "pOLED",
+      "slim",
+      "premium"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "Paper-thin design, pOLED display, Snapdragon 8s Gen 3. Style meets power."
+  },
+  {
+    "id": "prod_085",
+    "emoji": "🔊",
+    "title": "Marshall Stanmore III",
+    "brand": "Marshall",
+    "category": "bluetooth_speaker",
+    "price": {
+      "nova": 23999,
+      "velomart": 22999,
+      "urbancart": 23499
+    },
+    "rating": 4.7,
+    "reviews": 3821,
+    "inventory": {
+      "nova": 8,
+      "velomart": 10,
+      "urbancart": 7
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "waterproof": false,
+      "battery": "N/A (AC powered)",
+      "connectivity": "bluetooth_5.2,aux",
+      "sound": "stereo"
+    },
+    "tags": [
+      "speaker",
+      "marshall",
+      "premium",
+      "wifi",
+      "vintage"
+    ],
+    "delivery": {
+      "nova": "3 days",
+      "velomart": "3 days",
+      "urbancart": "4 days"
+    },
+    "description": "Rock heritage meets modern sound. Marshall's iconic home speaker."
+  },
+  {
+    "id": "prod_086",
+    "emoji": "👟",
+    "title": "Under Armour HOVR Sonic 6",
+    "brand": "Under Armour",
+    "category": "running_shoes",
+    "price": {
+      "nova": 7999,
+      "velomart": 7499,
+      "urbancart": 7799
+    },
+    "rating": 4.5,
+    "reviews": 2341,
+    "inventory": {
+      "nova": 15,
+      "velomart": 18,
+      "urbancart": 12
+    },
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "attrs": {
+      "surface": "road",
+      "use_case": "daily_running",
+      "cushion": "medium",
+      "connected": true
+    },
+    "tags": [
+      "running",
+      "ua",
+      "road",
+      "connected",
+      "daily"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "MapMyRun connected. HOVR cushion returns energy. Data-driven running."
+  },
+  {
+    "id": "prod_087",
+    "emoji": "🎮",
+    "title": "Nintendo Switch OLED",
+    "brand": "Nintendo",
+    "category": "gaming_console",
+    "price": {
+      "nova": 27999,
+      "velomart": 0,
+      "urbancart": 26999
+    },
+    "rating": 4.9,
+    "reviews": 28921,
+    "inventory": {
+      "nova": 10,
+      "velomart": 0,
+      "urbancart": 8
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "display": "7\" OLED",
+      "storage": "64GB",
+      "battery": "9hrs",
+      "portable": true
+    },
+    "tags": [
+      "gaming",
+      "nintendo",
+      "switch",
+      "oled",
+      "portable"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "OLED display, enhanced audio, solid kickstand. Best portable gaming device."
+  },
+  {
+    "id": "prod_088",
+    "emoji": "🎽",
+    "title": "Adidas Adizero Running Shorts",
+    "brand": "Adidas",
+    "category": "running_apparel",
+    "price": {
+      "nova": 1999,
+      "velomart": 1799,
+      "urbancart": 1899
+    },
+    "rating": 4.4,
+    "reviews": 6234,
+    "inventory": {
+      "nova": 40,
+      "velomart": 45,
+      "urbancart": 38
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "attrs": {
+      "material": "recycled_polyester",
+      "use_case": "running,speed",
+      "liner": "built_in"
+    },
+    "tags": [
+      "running",
+      "shorts",
+      "adidas",
+      "speed",
+      "performance"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "Built for speed. Lightweight and breathable for race-day performance."
+  },
+  {
+    "id": "prod_089",
+    "emoji": "⌚",
+    "title": "Fossil Gen 6 Smartwatch",
+    "brand": "Fossil",
+    "category": "smartwatch",
+    "price": {
+      "nova": 17999,
+      "velomart": 0,
+      "urbancart": 16999
+    },
+    "rating": 4.3,
+    "reviews": 3821,
+    "inventory": {
+      "nova": 10,
+      "velomart": 0,
+      "urbancart": 8
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "use_case": "fashion,fitness",
+      "gps": true,
+      "battery": "24hrs",
+      "display": "AMOLED",
+      "os": "Wear OS"
+    },
+    "tags": [
+      "smartwatch",
+      "fossil",
+      "fashion",
+      "wear_os",
+      "premium"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Classic watch design meets Wear OS. Stylish everyday smartwatch."
+  },
+  {
+    "id": "prod_090",
+    "emoji": "🖥",
+    "title": "ViewSonic VX2479-HD-PRO",
+    "brand": "ViewSonic",
+    "category": "monitor",
+    "price": {
+      "nova": 12999,
+      "velomart": 0,
+      "urbancart": 12499
+    },
+    "rating": 4.4,
+    "reviews": 2831,
+    "inventory": {
+      "nova": 15,
+      "velomart": 0,
+      "urbancart": 12
+    },
+    "sizes": [
+      "24\""
+    ],
+    "attrs": {
+      "resolution": "Full HD 1080p",
+      "panel": "IPS",
+      "refresh": "144Hz",
+      "use_case": "gaming"
+    },
+    "tags": [
+      "monitor",
+      "gaming",
+      "144hz",
+      "budget",
+      "ips"
+    ],
+    "delivery": {
+      "nova": "3 days",
+      "velomart": null,
+      "urbancart": "4 days"
+    },
+    "description": "144Hz IPS. Smooth gaming without breaking the bank."
+  },
+  {
+    "id": "prod_091",
+    "emoji": "📱",
+    "title": "Samsung Galaxy A55",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "price": {
+      "nova": 33999,
+      "velomart": 31999,
+      "urbancart": 32999
+    },
+    "rating": 4.5,
+    "reviews": 8923,
+    "inventory": {
+      "nova": 30,
+      "velomart": 28,
+      "urbancart": 25
+    },
+    "sizes": [
+      "128GB",
+      "256GB"
+    ],
+    "attrs": {
+      "os": "Android",
+      "chip": "Exynos 1480",
+      "camera": "50MP",
+      "battery": "5000mAh",
+      "display": "6.6\" Super AMOLED"
+    },
+    "tags": [
+      "smartphone",
+      "samsung",
+      "midrange",
+      "value",
+      "amoled"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "Galaxy design language at mid-range price. IP67, glass back, great display."
+  },
+  {
+    "id": "prod_092",
+    "emoji": "💻",
+    "title": "Dell Inspiron 15",
+    "brand": "Dell",
+    "category": "laptop",
+    "price": {
+      "nova": 48999,
+      "velomart": 0,
+      "urbancart": 46999
+    },
+    "rating": 4.3,
+    "reviews": 4823,
+    "inventory": {
+      "nova": 12,
+      "velomart": 0,
+      "urbancart": 10
+    },
+    "sizes": [
+      "15\""
+    ],
+    "attrs": {
+      "cpu": "Intel i5-1335U",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "gpu": "Intel Iris Xe",
+      "battery": "10hrs",
+      "weight": "1.65kg",
+      "use_case": "general,professional"
+    },
+    "tags": [
+      "laptop",
+      "dell",
+      "inspiron",
+      "general",
+      "professional"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Reliable Dell build quality. FHD display, good battery, everyday workhorse."
+  },
+  {
+    "id": "prod_093",
+    "emoji": "🎧",
+    "title": "Soundcore Life Q35",
+    "brand": "Anker",
+    "category": "headphones",
+    "price": {
+      "nova": 4999,
+      "velomart": 4699,
+      "urbancart": 4899
+    },
+    "rating": 4.4,
+    "reviews": 13821,
+    "inventory": {
+      "nova": 25,
+      "velomart": 28,
+      "urbancart": 22
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "over_ear",
+      "anc": true,
+      "battery": "40hrs",
+      "connectivity": "bluetooth_5.0",
+      "codec": "LDAC"
+    },
+    "tags": [
+      "headphones",
+      "anc",
+      "ldac",
+      "soundcore",
+      "value"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "LDAC support, ANC, 40hr battery. Audiophile features at a budget price."
+  },
+  {
+    "id": "prod_094",
+    "emoji": "👟",
+    "title": "Fila Vigilance Casual",
+    "brand": "Fila",
+    "category": "casual_shoes",
+    "price": {
+      "nova": 0,
+      "velomart": 2999,
+      "urbancart": 2799
+    },
+    "rating": 4.1,
+    "reviews": 4821,
+    "inventory": {
+      "nova": 0,
+      "velomart": 25,
+      "urbancart": 20
+    },
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "attrs": {
+      "surface": "street",
+      "use_case": "casual",
+      "material": "synthetic"
+    },
+    "tags": [
+      "casual",
+      "fila",
+      "budget",
+      "everyday"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "Classic Fila heritage design. Comfortable all-day casual wear."
+  },
+  {
+    "id": "prod_095",
+    "emoji": "🔋",
+    "title": "Baseus 65W GaN Charger",
+    "brand": "Baseus",
+    "category": "accessories",
+    "price": {
+      "nova": 1999,
+      "velomart": 1799,
+      "urbancart": 1899
+    },
+    "rating": 4.5,
+    "reviews": 18234,
+    "inventory": {
+      "nova": 50,
+      "velomart": 55,
+      "urbancart": 48
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "power": "65W",
+      "ports": "2 USB-C + 1 USB-A",
+      "technology": "GaN"
+    },
+    "tags": [
+      "charger",
+      "gan",
+      "fast_charging",
+      "compact",
+      "baseus"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "Triple-port 65W GaN. Charges MacBook, iPad, and phone simultaneously."
+  },
+  {
+    "id": "prod_096",
+    "emoji": "📺",
+    "title": "Mi QLED 4K 55\"",
+    "brand": "Xiaomi",
+    "category": "tv",
+    "price": {
+      "nova": 0,
+      "velomart": 42999,
+      "urbancart": 41999
+    },
+    "rating": 4.5,
+    "reviews": 12841,
+    "inventory": {
+      "nova": 0,
+      "velomart": 8,
+      "urbancart": 7
+    },
+    "sizes": [
+      "55\""
+    ],
+    "attrs": {
+      "display": "QLED 4K",
+      "hdr": "Dolby Vision",
+      "smart": true,
+      "os": "Android TV"
+    },
+    "tags": [
+      "tv",
+      "xiaomi",
+      "qled",
+      "4k",
+      "value"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": "5 days",
+      "urbancart": "5 days"
+    },
+    "description": "Dolby Vision QLED at value price. Xiaomi's premium TV with Android TV."
+  },
+  {
+    "id": "prod_097",
+    "emoji": "🎽",
+    "title": "ASICS Gel-Kayano Tee",
+    "brand": "ASICS",
+    "category": "running_apparel",
+    "price": {
+      "nova": 1799,
+      "velomart": 1599,
+      "urbancart": 1699
+    },
+    "rating": 4.4,
+    "reviews": 3421,
+    "inventory": {
+      "nova": 40,
+      "velomart": 50,
+      "urbancart": 38
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "attrs": {
+      "material": "polyester",
+      "use_case": "running",
+      "moisture_wicking": true
+    },
+    "tags": [
+      "running",
+      "tee",
+      "asics",
+      "moisture_wicking",
+      "comfort"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "ASICS motion dry technology. Lightweight and ventilated for any pace."
+  },
+  {
+    "id": "prod_098",
+    "emoji": "🏋",
+    "title": "Decathlon Weight Training Gloves",
+    "brand": "Decathlon",
+    "category": "fitness",
+    "price": {
+      "nova": 0,
+      "velomart": 799,
+      "urbancart": 699
+    },
+    "rating": 4.3,
+    "reviews": 9823,
+    "inventory": {
+      "nova": 0,
+      "velomart": 80,
+      "urbancart": 70
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "attrs": {
+      "material": "synthetic_leather",
+      "use_case": "gym,weightlifting"
+    },
+    "tags": [
+      "fitness",
+      "gym",
+      "gloves",
+      "budget",
+      "decathlon"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "Palm protection, grip support, breathable. Essential gym accessory."
+  },
+  {
+    "id": "prod_099",
+    "emoji": "📱",
+    "title": "Lava Agni 3 5G",
+    "brand": "Lava",
+    "category": "smartphone",
+    "price": {
+      "nova": 0,
+      "velomart": 18999,
+      "urbancart": 17999
+    },
+    "rating": 4,
+    "reviews": 4821,
+    "inventory": {
+      "nova": 0,
+      "velomart": 25,
+      "urbancart": 22
+    },
+    "sizes": [
+      "128GB"
+    ],
+    "attrs": {
+      "os": "Android",
+      "chip": "Dimensity 7050",
+      "camera": "64MP",
+      "battery": "5000mAh",
+      "display": "6.78\" AMOLED"
+    },
+    "tags": [
+      "smartphone",
+      "lava",
+      "5g",
+      "budget",
+      "india"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": "2 days",
+      "urbancart": "2 days"
+    },
+    "description": "Indian brand. 5G, AMOLED, 64MP, 5000mAh. Strong budget contender."
+  },
+  {
+    "id": "prod_100",
+    "emoji": "🔊",
+    "title": "Sony SRS-XB33 Speaker",
+    "brand": "Sony",
+    "category": "bluetooth_speaker",
+    "price": {
+      "nova": 6999,
+      "velomart": 6499,
+      "urbancart": 6799
+    },
+    "rating": 4.5,
+    "reviews": 8921,
+    "inventory": {
+      "nova": 20,
+      "velomart": 22,
+      "urbancart": 18
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "waterproof": "IP67",
+      "battery": "24hrs",
+      "connectivity": "bluetooth_5.0",
+      "lights": true
+    },
+    "tags": [
+      "speaker",
+      "sony",
+      "waterproof",
+      "party",
+      "lights"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "IP67, 24hr battery, party booster lights. Sony's waterproof party speaker."
+  },
+  {
+    "id": "prod_101",
+    "emoji": "👟",
+    "title": "Red Chief Leather Oxford",
+    "brand": "Red Chief",
+    "category": "formal_shoes",
+    "price": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 2999
+    },
+    "rating": 4.4,
+    "reviews": 5823,
+    "inventory": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 18
+    },
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "attrs": {
+      "surface": "formal",
+      "use_case": "office",
+      "material": "genuine_leather"
+    },
+    "tags": [
+      "formal",
+      "shoes",
+      "leather",
+      "red_chief",
+      "office"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": null,
+      "urbancart": "4 days"
+    },
+    "description": "Genuine leather upper. Smart brogue detailing for the discerning professional."
+  },
+  {
+    "id": "prod_102",
+    "emoji": "💻",
+    "title": "Realme Book Slim 2023",
+    "brand": "Realme",
+    "category": "laptop",
+    "price": {
+      "nova": 34999,
+      "velomart": 0,
+      "urbancart": 32999
+    },
+    "rating": 4.2,
+    "reviews": 2341,
+    "inventory": {
+      "nova": 12,
+      "velomart": 0,
+      "urbancart": 10
+    },
+    "sizes": [
+      "14\""
+    ],
+    "attrs": {
+      "cpu": "Intel i5-1235U",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "gpu": "Intel Iris Xe",
+      "battery": "11hrs",
+      "weight": "1.39kg",
+      "use_case": "student"
+    },
+    "tags": [
+      "laptop",
+      "realme",
+      "slim",
+      "student",
+      "budget"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Featherlight 1.39kg. 2.5K IPS display. Great value for students."
+  },
+  {
+    "id": "prod_103",
+    "emoji": "🎧",
+    "title": "Jabra Elite 4 Active",
+    "brand": "Jabra",
+    "category": "earbuds",
+    "price": {
+      "nova": 8999,
+      "velomart": 8499,
+      "urbancart": 8799
+    },
+    "rating": 4.5,
+    "reviews": 4821,
+    "inventory": {
+      "nova": 20,
+      "velomart": 18,
+      "urbancart": 22
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "in_ear",
+      "anc": true,
+      "battery": "28hrs",
+      "connectivity": "bluetooth_5.2",
+      "waterproof": "IP57",
+      "use_case": "sports,running"
+    },
+    "tags": [
+      "earbuds",
+      "sports",
+      "anc",
+      "waterproof",
+      "jabra"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "IP57 waterproof. ANC for sports. Built for the active lifestyle."
+  },
+  {
+    "id": "prod_104",
+    "emoji": "🏃",
+    "title": "Adidas Running Cap",
+    "brand": "Adidas",
+    "category": "accessories",
+    "price": {
+      "nova": 1499,
+      "velomart": 1299,
+      "urbancart": 1399
+    },
+    "rating": 4.3,
+    "reviews": 4823,
+    "inventory": {
+      "nova": 40,
+      "velomart": 50,
+      "urbancart": 38
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "material": "polyester",
+      "use_case": "running,outdoor",
+      "moisture_wicking": true
+    },
+    "tags": [
+      "running",
+      "cap",
+      "adidas",
+      "outdoor",
+      "sun"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "Moisture-wicking sweatband. Perforated for ventilation. Essential running accessory."
+  },
+  {
+    "id": "prod_105",
+    "emoji": "📱",
+    "title": "Redmi Note 13 Pro+",
+    "brand": "Xiaomi",
+    "category": "smartphone",
+    "price": {
+      "nova": 29999,
+      "velomart": 28999,
+      "urbancart": 29499
+    },
+    "rating": 4.5,
+    "reviews": 14231,
+    "inventory": {
+      "nova": 35,
+      "velomart": 32,
+      "urbancart": 30
+    },
+    "sizes": [
+      "256GB"
+    ],
+    "attrs": {
+      "os": "Android",
+      "chip": "Dimensity 7200 Ultra",
+      "camera": "200MP",
+      "battery": "5000mAh",
+      "display": "6.67\" OLED"
+    },
+    "tags": [
+      "smartphone",
+      "redmi",
+      "200mp",
+      "5g",
+      "value"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "200MP camera, IP68, 120W fast charge. Breakthrough value mid-ranger."
+  },
+  {
+    "id": "prod_106",
+    "emoji": "⌚",
+    "title": "Samsung Galaxy Watch 6",
+    "brand": "Samsung",
+    "category": "smartwatch",
+    "price": {
+      "nova": 24999,
+      "velomart": 0,
+      "urbancart": 23999
+    },
+    "rating": 4.6,
+    "reviews": 8921,
+    "inventory": {
+      "nova": 15,
+      "velomart": 0,
+      "urbancart": 12
+    },
+    "sizes": [
+      "40mm",
+      "44mm"
+    ],
+    "attrs": {
+      "use_case": "health,fitness,android",
+      "gps": true,
+      "battery": "40hrs",
+      "display": "Super AMOLED",
+      "os": "Wear OS"
+    },
+    "tags": [
+      "smartwatch",
+      "samsung",
+      "health",
+      "android",
+      "premium"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Advanced sleep, BIA body composition, Wear OS. Samsung's premium watch."
+  },
+  {
+    "id": "prod_107",
+    "emoji": "🎒",
+    "title": "Puma Phase Backpack",
+    "brand": "Puma",
+    "category": "backpack",
+    "price": {
+      "nova": 0,
+      "velomart": 1499,
+      "urbancart": 1399
+    },
+    "rating": 4.2,
+    "reviews": 8923,
+    "inventory": {
+      "nova": 0,
+      "velomart": 45,
+      "urbancart": 40
+    },
+    "sizes": [
+      "21L"
+    ],
+    "attrs": {
+      "material": "polyester",
+      "laptop_size": "15\"",
+      "waterproof": false
+    },
+    "tags": [
+      "backpack",
+      "puma",
+      "casual",
+      "everyday",
+      "sports"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "Lightweight 21L pack. Two main compartments, Puma branding."
+  },
+  {
+    "id": "prod_108",
+    "emoji": "🏋",
+    "title": "Strauss Yoga Mat",
+    "brand": "Strauss",
+    "category": "fitness",
+    "price": {
+      "nova": 0,
+      "velomart": 999,
+      "urbancart": 899
+    },
+    "rating": 4.4,
+    "reviews": 18923,
+    "inventory": {
+      "nova": 0,
+      "velomart": 100,
+      "urbancart": 90
+    },
+    "sizes": [
+      "6mm"
+    ],
+    "attrs": {
+      "material": "TPE",
+      "use_case": "yoga,pilates,stretching"
+    },
+    "tags": [
+      "yoga",
+      "mat",
+      "fitness",
+      "home",
+      "strauss"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "Non-slip TPE surface. Carrying strap included. Perfect for yoga at home."
+  },
+  {
+    "id": "prod_109",
+    "emoji": "👔",
+    "title": "Raymond Black Formal Shirt",
+    "brand": "Raymond",
+    "category": "formal_shirt",
+    "price": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 3499
+    },
+    "rating": 4.7,
+    "reviews": 2841,
+    "inventory": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 12
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "attrs": {
+      "color": "black",
+      "material": "premium_cotton",
+      "fit": "regular",
+      "use_case": "office,formal"
+    },
+    "tags": [
+      "formal",
+      "shirt",
+      "raymond",
+      "premium",
+      "classic"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Raymond's premium cotton. Immaculate finish, classic collar, perfect drape."
+  },
+  {
+    "id": "prod_110",
+    "emoji": "💻",
+    "title": "HP EliteBook 840 G10",
+    "brand": "HP",
+    "category": "laptop",
+    "price": {
+      "nova": 79999,
+      "velomart": 0,
+      "urbancart": 77999
+    },
+    "rating": 4.7,
+    "reviews": 2341,
+    "inventory": {
+      "nova": 8,
+      "velomart": 0,
+      "urbancart": 6
+    },
+    "sizes": [
+      "14\""
+    ],
+    "attrs": {
+      "cpu": "Intel i7-1365U",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "gpu": "Intel Iris Xe",
+      "battery": "13hrs",
+      "weight": "1.44kg",
+      "use_case": "professional,enterprise"
+    },
+    "tags": [
+      "laptop",
+      "hp",
+      "enterprise",
+      "professional",
+      "security"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Enterprise security, Sure View privacy display, 13-hr battery. For business elite."
+  },
+  {
+    "id": "prod_111",
+    "emoji": "📱",
+    "title": "iPhone 15",
+    "brand": "Apple",
+    "category": "smartphone",
+    "price": {
+      "nova": 74999,
+      "velomart": 0,
+      "urbancart": 72999
+    },
+    "rating": 4.7,
+    "reviews": 28921,
+    "inventory": {
+      "nova": 25,
+      "velomart": 0,
+      "urbancart": 20
+    },
+    "sizes": [
+      "128GB",
+      "256GB",
+      "512GB"
+    ],
+    "attrs": {
+      "os": "iOS",
+      "chip": "A16 Bionic",
+      "camera": "48MP",
+      "battery": "3877mAh",
+      "display": "6.1\" Super Retina XDR"
+    },
+    "tags": [
+      "smartphone",
+      "iphone",
+      "apple",
+      "premium",
+      "usbc"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "USB-C transition. Dynamic Island. Cinematic Mode. Best mainstream iPhone."
+  },
+  {
+    "id": "prod_112",
+    "emoji": "🎧",
+    "title": "Sennheiser CX 400BT",
+    "brand": "Sennheiser",
+    "category": "earbuds",
+    "price": {
+      "nova": 7999,
+      "velomart": 7499,
+      "urbancart": 7799
+    },
+    "rating": 4.4,
+    "reviews": 3821,
+    "inventory": {
+      "nova": 15,
+      "velomart": 18,
+      "urbancart": 12
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "type": "in_ear",
+      "anc": false,
+      "battery": "20hrs",
+      "connectivity": "bluetooth_5.0",
+      "codec": "aptX"
+    },
+    "tags": [
+      "earbuds",
+      "sennheiser",
+      "audiophile",
+      "aptx",
+      "quality"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "Audiophile-grade drivers, aptX, 20hr battery. German engineering for ears."
+  },
+  {
+    "id": "prod_113",
+    "emoji": "👟",
+    "title": "Crocs Classic Clog",
+    "brand": "Crocs",
+    "category": "casual_shoes",
+    "price": {
+      "nova": 0,
+      "velomart": 2999,
+      "urbancart": 2799
+    },
+    "rating": 4.4,
+    "reviews": 28921,
+    "inventory": {
+      "nova": 0,
+      "velomart": 50,
+      "urbancart": 45
+    },
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "attrs": {
+      "surface": "casual",
+      "use_case": "casual,home,outdoor",
+      "material": "croslite"
+    },
+    "tags": [
+      "casual",
+      "crocs",
+      "comfortable",
+      "versatile"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "Lightweight Croslite material. Iconic comfort and style. Year-round versatile."
+  },
+  {
+    "id": "prod_114",
+    "emoji": "🏃",
+    "title": "Compression Running Socks",
+    "brand": "Decathlon",
+    "category": "accessories",
+    "price": {
+      "nova": 0,
+      "velomart": 499,
+      "urbancart": 449
+    },
+    "rating": 4.3,
+    "reviews": 12841,
+    "inventory": {
+      "nova": 0,
+      "velomart": 150,
+      "urbancart": 130
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "attrs": {
+      "material": "polyester_blend",
+      "use_case": "running,sports"
+    },
+    "tags": [
+      "running",
+      "socks",
+      "compression",
+      "decathlon",
+      "value"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": "1 day",
+      "urbancart": "2 days"
+    },
+    "description": "Arch support, moisture management, reinforced heel. Runner's essential."
+  },
+  {
+    "id": "prod_115",
+    "emoji": "🔊",
+    "title": "Harman Kardon Onyx Studio 8",
+    "brand": "Harman Kardon",
+    "category": "bluetooth_speaker",
+    "price": {
+      "nova": 16999,
+      "velomart": 15999,
+      "urbancart": 16499
+    },
+    "rating": 4.6,
+    "reviews": 3821,
+    "inventory": {
+      "nova": 10,
+      "velomart": 12,
+      "urbancart": 8
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "waterproof": "IPX5",
+      "battery": "8hrs",
+      "connectivity": "bluetooth_5.3",
+      "sound": "360"
+    },
+    "tags": [
+      "speaker",
+      "premium",
+      "harman",
+      "360",
+      "lifestyle"
+    ],
+    "delivery": {
+      "nova": "2 days",
+      "velomart": "2 days",
+      "urbancart": "3 days"
+    },
+    "description": "Premium aesthetics, 360-degree sound. Home and portable lifestyle speaker."
+  },
+  {
+    "id": "prod_116",
+    "emoji": "📺",
+    "title": "Sony Bravia 4K XR 55\"",
+    "brand": "Sony",
+    "category": "tv",
+    "price": {
+      "nova": 64999,
+      "velomart": 0,
+      "urbancart": 62999
+    },
+    "rating": 4.8,
+    "reviews": 6234,
+    "inventory": {
+      "nova": 6,
+      "velomart": 0,
+      "urbancart": 5
+    },
+    "sizes": [
+      "55\""
+    ],
+    "attrs": {
+      "display": "LED 4K",
+      "hdr": "Dolby Vision,HDR10+",
+      "smart": true,
+      "os": "Google TV",
+      "processor": "XR"
+    },
+    "tags": [
+      "tv",
+      "sony",
+      "4k",
+      "google_tv",
+      "xr"
+    ],
+    "delivery": {
+      "nova": "3 days",
+      "velomart": null,
+      "urbancart": "5 days"
+    },
+    "description": "Cognitive Processor XR. Google TV. Dolby Vision & Atmos. Sony's flagship."
+  },
+  {
+    "id": "prod_117",
+    "emoji": "🎮",
+    "title": "Steam Deck OLED 1TB",
+    "brand": "Valve",
+    "category": "gaming_console",
+    "price": {
+      "nova": 49999,
+      "velomart": 0,
+      "urbancart": 48999
+    },
+    "rating": 4.8,
+    "reviews": 9231,
+    "inventory": {
+      "nova": 6,
+      "velomart": 0,
+      "urbancart": 5
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "display": "7.4\" OLED",
+      "storage": "1TB SSD",
+      "battery": "12hrs",
+      "portable": true
+    },
+    "tags": [
+      "gaming",
+      "steam",
+      "valve",
+      "oled",
+      "portable",
+      "pc"
+    ],
+    "delivery": {
+      "nova": "3 days",
+      "velomart": null,
+      "urbancart": "4 days"
+    },
+    "description": "Your entire Steam library, portable. OLED display, 12hr battery."
+  },
+  {
+    "id": "prod_118",
+    "emoji": "👗",
+    "title": "Levi's Trucker Jacket",
+    "brand": "Levi's",
+    "category": "clothing",
+    "price": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 4999
+    },
+    "rating": 4.5,
+    "reviews": 8921,
+    "inventory": {
+      "nova": 0,
+      "velomart": 0,
+      "urbancart": 15
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "attrs": {
+      "material": "denim",
+      "use_case": "casual",
+      "fit": "regular"
+    },
+    "tags": [
+      "jacket",
+      "denim",
+      "levis",
+      "casual",
+      "classic"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": null,
+      "urbancart": "3 days"
+    },
+    "description": "Iconic Trucker Jacket. Versatile layering piece for any casual look."
+  },
+  {
+    "id": "prod_119",
+    "emoji": "💡",
+    "title": "Syska Smart LED Bulb",
+    "brand": "Syska",
+    "category": "smart_home",
+    "price": {
+      "nova": 0,
+      "velomart": 699,
+      "urbancart": 649
+    },
+    "rating": 4.2,
+    "reviews": 28921,
+    "inventory": {
+      "nova": 0,
+      "velomart": 200,
+      "urbancart": 180
+    },
+    "sizes": [
+      "9W"
+    ],
+    "attrs": {
+      "connectivity": "wifi",
+      "colors": "16 million",
+      "voice_control": true,
+      "app": true
+    },
+    "tags": [
+      "smart_home",
+      "led",
+      "budget",
+      "voice",
+      "wifi"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": "1 day",
+      "urbancart": "1 day"
+    },
+    "description": "Alexa & Google Home compatible. 16M colors. Budget smart home starter."
+  },
+  {
+    "id": "prod_120",
+    "emoji": "🔋",
+    "title": "Mi 33W Charger Combo",
+    "brand": "Xiaomi",
+    "category": "accessories",
+    "price": {
+      "nova": 0,
+      "velomart": 1299,
+      "urbancart": 1199
+    },
+    "rating": 4.3,
+    "reviews": 18234,
+    "inventory": {
+      "nova": 0,
+      "velomart": 100,
+      "urbancart": 90
+    },
+    "sizes": [
+      "One Size"
+    ],
+    "attrs": {
+      "power": "33W",
+      "ports": "USB-A,USB-C",
+      "cable_included": true
+    },
+    "tags": [
+      "charger",
+      "xiaomi",
+      "fast_charging",
+      "value",
+      "bundle"
+    ],
+    "delivery": {
+      "nova": null,
+      "velomart": "1 day",
+      "urbancart": "1 day"
+    },
+    "description": "33W fast charger + cable. Mi's best value charging combo."
+  }
+]

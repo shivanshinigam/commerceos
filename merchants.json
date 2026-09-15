@@ -1,0 +1,71 @@
+{
+  "nova": {
+    "id": "nova",
+    "name": "NOVA",
+    "tagline": "Premium. Fast. Reliable.",
+    "emoji": "⚡",
+    "color": "#7c3aed",
+    "specialty": "Electronics & Premium Footwear",
+    "shipping_base": 99,
+    "shipping_free_threshold": 5000,
+    "policy": {
+      "returns": "30 days",
+      "warranty": "1 year",
+      "cod": false
+    },
+    "capabilities": [
+      "product_discovery",
+      "cart",
+      "checkout",
+      "order_management",
+      "fulfillment"
+    ],
+    "rating": 4.7
+  },
+  "velomart": {
+    "id": "velomart",
+    "name": "VeloMart",
+    "tagline": "Sports. Performance. Value.",
+    "emoji": "🏃",
+    "color": "#10b981",
+    "specialty": "Sports & Fitness",
+    "shipping_base": 49,
+    "shipping_free_threshold": 3000,
+    "policy": {
+      "returns": "15 days",
+      "warranty": "6 months",
+      "cod": true
+    },
+    "capabilities": [
+      "product_discovery",
+      "cart",
+      "checkout",
+      "order_management"
+    ],
+    "rating": 4.4
+  },
+  "urbancart": {
+    "id": "urbancart",
+    "name": "UrbanCart",
+    "tagline": "Style. Variety. Everyday.",
+    "emoji": "🏙",
+    "color": "#f59e0b",
+    "specialty": "Fashion & Lifestyle",
+    "shipping_base": 79,
+    "shipping_free_threshold": 4000,
+    "policy": {
+      "returns": "21 days",
+      "warranty": "1 year",
+      "cod": true
+    },
+    "capabilities": [
+      "product_discovery",
+      "cart",
+      "checkout",
+      "order_management",
+      "discount",
+      "fulfillment"
+    ],
+    "rating": 4.2
+  }
+}
