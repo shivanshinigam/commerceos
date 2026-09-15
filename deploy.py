@@ -38,18 +38,34 @@ def upload():
         )
         print("   ✅ index.html uploaded!")
 
-        # Upload README.md if it exists
+        # Upload README.md if it exists (prepending minimal required HF Space metadata to avoid Config Error)
         readme = Path(__file__).parent / "README.md"
         if readme.exists():
-            print("   📤 Uploading clean README.md to HuggingFace Space...")
+            print("   📤 Uploading README.md to HuggingFace Space with static SDK metadata...")
+            content = readme.read_text(encoding="utf-8")
+            hf_yaml = """---
+title: CommerceOS — Agentic Commerce Lab
+emoji: 🧪
+colorFrom: purple
+colorTo: blue
+sdk: static
+pinned: true
+---
+
+"""
+            if not content.startswith("---"):
+                hf_content = hf_yaml + content
+            else:
+                hf_content = content
+
             api.upload_file(
-                path_or_fileobj=str(readme),
+                path_or_fileobj=hf_content.encode("utf-8"),
                 path_in_repo="README.md",
                 repo_id=REPO_ID,
                 repo_type="space",
-                commit_message="Remove metadata header from README"
+                commit_message="Fix HF Space Configuration Error - restore sdk: static"
             )
-            print("   ✅ Clean README.md uploaded to HuggingFace!")
+            print("   ✅ README.md uploaded to HuggingFace with Space configuration!")
 
         # Upload docs/images folder if it exists
         docs_dir = Path(__file__).parent / "docs"
