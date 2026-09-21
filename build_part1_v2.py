@@ -537,6 +537,7 @@ body {
       <!-- Quick prompts -->
       <div class="quick-prompts">
         <span style="font-size:0.65rem;color:var(--text-muted);margin-right:4px;">Suggested:</span>
+        <button class="qp-chip" data-query="Complete party outfit under ₹5,000">✨ Complete Outfit Bundle</button>
         <button class="qp-chip" data-query="Find wireless headphones under ₹10,000 with excellent battery life">Headphones under ₹10k</button>
         <button class="qp-chip" data-query="Find a laptop under ₹80,000 for Python and machine learning">ML laptop under ₹80k</button>
         <button class="qp-chip" data-query="Find running shoes under ₹8,000, size 7, for daily road running">Running shoes under ₹8k</button>

@@ -181,6 +181,89 @@ window.UI = {
     }
 
     const msgs = document.getElementById('chat-messages');
+
+    // RENDER AI OUTFIT BUNDLE IF OUTFIT INTENT DETECTED
+    if (intent && (intent.is_outfit_intent || (intent.raw_query || '').toLowerCase().includes('outfit') || (intent.raw_query || '').toLowerCase().includes('bundle'))) {
+      const outfit = typeof OUTFIT_BUILDER !== 'undefined' ? OUTFIT_BUILDER.buildOutfit(intent.raw_query, ranked[0]) : null;
+      if (outfit) {
+        const outfitRow = document.createElement('div');
+        outfitRow.className = 'chat-row';
+        const top = outfit.topwear;
+        const bot = outfit.bottomwear;
+        const shoe = outfit.footwear;
+
+        outfitRow.innerHTML = `
+          <div class="chat-avatar agent-avatar">AI</div>
+          <div class="chat-bubble agent-bubble" style="max-width:92%;width:92%;background:linear-gradient(135deg,rgba(15,23,42,0.95),rgba(30,27,75,0.95));border:1px solid rgba(168,85,247,0.5);box-shadow:0 0 35px rgba(168,85,247,0.25);">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.1);">
+              <div>
+                <span style="background:linear-gradient(135deg,#7c3aed,#ec4899);color:white;padding:3px 10px;border-radius:6px;font-size:0.7rem;font-weight:800;letter-spacing:0.5px;">✨ AI STYLED COMPLETE OUTFIT BUNDLE</span>
+                <span style="background:rgba(16,185,129,0.2);color:#10b981;border:1px solid rgba(16,185,129,0.4);padding:2px 8px;border-radius:4px;font-size:0.65rem;font-weight:700;margin-left:8px;">Save ₹${outfit.savings.toLocaleString('en-IN')} (12% Off)</span>
+              </div>
+              <span style="font-size:0.75rem;color:var(--text-muted);font-weight:600;">Multi-Item Vector Paired</span>
+            </div>
+            <div style="font-size:0.78rem;color:#e2e8f0;margin-bottom:12px;background:rgba(124,58,237,0.12);border-left:3px solid #a855f7;padding:8px 12px;border-radius:0 8px 8px 0;">
+              <strong>Stylist Rationale:</strong> ${outfit.reasoning}
+            </div>
+
+            <!-- OUTFIT ITEMS GRID -->
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:14px;">
+              
+              <!-- TOPWEAR -->
+              <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:10px;">
+                <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
+                  <span style="font-size:1.2rem;">${top.emoji || '🧥'}</span>
+                  <div>
+                    <span style="font-size:0.62rem;color:#a855f7;font-weight:800;text-transform:uppercase;">Topwear</span>
+                    <div style="font-size:0.75rem;font-weight:700;color:white;line-height:1.2;">${top.title}</div>
+                  </div>
+                </div>
+                <div style="font-size:0.75rem;color:#10b981;font-weight:800;margin-top:4px;">₹${(top.best_price || 1499).toLocaleString('en-IN')}</div>
+              </div>
+
+              <!-- BOTTOMWEAR -->
+              <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:10px;">
+                <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
+                  <span style="font-size:1.2rem;">${bot.emoji}</span>
+                  <div>
+                    <span style="font-size:0.62rem;color:#06b6d4;font-weight:800;text-transform:uppercase;">Bottomwear</span>
+                    <div style="font-size:0.75rem;font-weight:700;color:white;line-height:1.2;">${bot.title}</div>
+                  </div>
+                </div>
+                <div style="font-size:0.75rem;color:#10b981;font-weight:800;margin-top:4px;">₹${bot.best_price.toLocaleString('en-IN')}</div>
+              </div>
+
+              <!-- FOOTWEAR -->
+              <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:10px;">
+                <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
+                  <span style="font-size:1.2rem;">${shoe.emoji}</span>
+                  <div>
+                    <span style="font-size:0.62rem;color:#f59e0b;font-weight:800;text-transform:uppercase;">Footwear</span>
+                    <div style="font-size:0.75rem;font-weight:700;color:white;line-height:1.2;">${shoe.title}</div>
+                  </div>
+                </div>
+                <div style="font-size:0.75rem;color:#10b981;font-weight:800;margin-top:4px;">₹${shoe.best_price.toLocaleString('en-IN')}</div>
+              </div>
+
+            </div>
+
+            <!-- BUNDLE FOOTER BAR -->
+            <div style="display:flex;align-items:center;justify-content:space-between;background:rgba(0,0,0,0.4);padding:10px 14px;border-radius:10px;border:1px solid rgba(255,255,255,0.08);">
+              <div>
+                <span style="font-size:0.72rem;color:var(--text-muted);">Total Outfit Price:</span>
+                <span style="text-decoration:line-through;color:var(--text-muted);font-size:0.75rem;margin-left:6px;">₹${outfit.originalTotal.toLocaleString('en-IN')}</span>
+                <span style="color:#10b981;font-weight:900;font-size:1rem;margin-left:8px;">₹${outfit.bundlePrice.toLocaleString('en-IN')}</span>
+              </div>
+              <button onclick="window.runUCPSimulator && window.runUCPSimulator('${encodeURIComponent(outfit.title)}', ${outfit.bundlePrice})" style="background:linear-gradient(135deg,#7c3aed,#ec4899);color:white;border:none;padding:8px 16px;border-radius:8px;font-size:0.78rem;font-weight:800;cursor:pointer;box-shadow:0 0 15px rgba(236,72,153,0.4);transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
+                ⚡ Buy Entire Outfit via UCP (₹${outfit.bundlePrice.toLocaleString('en-IN')})
+              </button>
+            </div>
+
+          </div>`;
+        msgs.appendChild(outfitRow);
+      }
+    }
+
     const rejCount = (hardFailures || []).length;
     const summaryRow = document.createElement('div');
     summaryRow.className = 'chat-row';

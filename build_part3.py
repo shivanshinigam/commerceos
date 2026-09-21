@@ -166,16 +166,75 @@ const INTENT_PARSER = {
     const stopWords = new Set(['find','a','an','the','for','with','under','below','and','or','i','me','my','need','want','looking','good','great','best','please','some','any','at']);
     result.keywords = q.split(/\s+/).filter(w => w.length > 3 && !stopWords.has(w)).slice(0, 8);
 
+    // Extract outfit / bundle intent
+    if (/\b(outfit|outfits|bundle|look|set|styled|complete look|party look|casual look)\b/i.test(q)) {
+      result.is_outfit_intent = true;
+    }
+
     // Confidence
     let conf = 0;
     if (result.category) conf += 40;
     if (result.budget.max) conf += 25;
     if (result.size) conf += 15;
     if (result.brand_preference.length) conf += 10;
-    if (result.use_case.length) conf += 10;
+    if (result.use_case.length || result.is_outfit_intent) conf += 10;
     result.confidence = Math.min(conf, 99);
 
     return result;
+  }
+};
+
+// ---- OUTFIT BUILDER ENGINE ----
+const OUTFIT_BUILDER = {
+  buildOutfit(query, topProduct = null) {
+    let topwear = topProduct ? (topProduct.product || topProduct) : null;
+    if (!topwear && typeof CURATED_CATALOG !== 'undefined' && Array.isArray(CURATED_CATALOG)) {
+      topwear = CURATED_CATALOG.find(p => ['sweatshirt', 't_shirt', 'shirt', 'apparel'].includes(p.category)) || CURATED_CATALOG[0];
+    }
+    if (!topwear) return null;
+
+    const brand = topwear.brand || 'Lee';
+
+    const bottomwear = {
+      id: 'APP-BOTTOM-01',
+      title: `${brand} Slim Fit Dark Indigo Denim Jeans`,
+      brand: brand,
+      category: 'bottomwear',
+      best_price: 2199,
+      rating: 4.7,
+      emoji: '👖',
+      image: 'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&auto=format&fit=crop&q=60',
+      description: 'Premium stretch denim with tailored tapered fit.'
+    };
+
+    const footwear = {
+      id: 'APP-SHOES-01',
+      title: 'Puma Rebound Low-Top Unisex Sneakers (White)',
+      brand: 'Puma',
+      category: 'footwear',
+      best_price: 2499,
+      rating: 4.8,
+      emoji: '👟',
+      image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&auto=format&fit=crop&q=60',
+      description: 'Classic low-top streetwear sneakers with softfoam cushioning.'
+    };
+
+    const originalTotal = (topwear.best_price || 1499) + bottomwear.best_price + footwear.best_price;
+    const bundleDiscount = Math.round(originalTotal * 0.12);
+    const bundlePrice = originalTotal - bundleDiscount;
+
+    return {
+      title: `AI Styled ${brand} Complete Outfit Bundle`,
+      topwear,
+      bottomwear,
+      footwear,
+      originalTotal,
+      bundleDiscount,
+      bundlePrice,
+      savings: bundleDiscount,
+      reasoning: `Paired ${topwear.title} with Indigo Stretch Denim Jeans & Puma White Sneakers for a cohesive, modern smart-casual look. Includes 12% AI Bundle Discount.`,
+      items: [topwear, bottomwear, footwear]
+    };
   }
 };
 
