@@ -4699,11 +4699,25 @@ const SEARCH_ENGINE = {
           const searchText = (item.title + ' ' + item.brand + ' ' + (item.search_text || '') + ' ' + item.category).toLowerCase();
           
           let matches = false;
+          const isApparelItem = ['sweatshirt', 't_shirt', 'shirt', 'apparel', 'mens-shirts'].includes(item.category);
+
+          // Outfit intent match: match apparel items
+          if (intent.is_outfit_intent && isApparelItem) {
+            matches = true;
+          }
           // Category match
-          if (intent.category && item.category === intent.category) matches = true;
-          // Keyword / Brand match
-          if (!matches && rawWords.some(w => searchText.includes(w))) matches = true;
+          if (!matches && intent.category && item.category === intent.category) matches = true;
+
+          // Keyword / Brand match (ignoring generic outfit words)
+          const outfitWords = new Set(['complete', 'party', 'outfit', 'outfits', 'bundle', 'look', 'style', 'set', 'clothing']);
+          const filteredRawWords = rawWords.filter(w => !outfitWords.has(w));
+          if (!matches && filteredRawWords.length > 0 && filteredRawWords.some(w => searchText.includes(w))) matches = true;
           if (!matches && intent.brand_preference.some(b => searchText.includes(b))) matches = true;
+
+          // Fallback for general outfit queries if no specific keywords left
+          if (!matches && intent.is_outfit_intent && (filteredRawWords.length === 0 || !intent.category)) {
+            if (isApparelItem) matches = true;
+          }
 
           if (matches) {
             seen.add(item.id);
