@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Build Part 3: Agent Engine - Intent Parser, Search, Ranking, Constraint Engine, Checkout, Orders"""
 
+import os
+
 AGENT_JS = r'''
 <!-- PART 3: AGENT ENGINE -->
 <script>
@@ -40,6 +42,9 @@ var SESSION = {
 const INTENT_PARSER = {
   // Category keywords
   CATEGORIES: {
+    'sweatshirt': ['sweatshirt','sweatshirts','hoodie','pullover'],
+    't_shirt': ['t-shirt','tshirt','tee','t-shirts'],
+    'shirt': ['shirt','shirts','button shirt'],
     'running_shoes': ['running shoe','running shoes','runner','run','jogging','road shoe','trail shoe'],
     'laptop': ['laptop','notebook','computer','pc','macbook','chromebook'],
     'headphones': ['headphone','earphone','earbuds','headset','earbud','earpiece','over-ear','on-ear','in-ear','tws','buds'],
@@ -54,7 +59,7 @@ const INTENT_PARSER = {
     'camera': ['camera','dslr','mirrorless'],
   },
   // Brand keywords
-  BRANDS: ['nike','adidas','sony','bose','apple','samsung','oneplus','realme','jbl','sennheiser','logitech',
+  BRANDS: ['lee','myntra','flying machine','wrangler','scullers','benetton','highlander','puma','nike','adidas','sony','bose','apple','samsung','oneplus','realme','jbl','sennheiser','logitech',
            'dell','lenovo','hp','asus','acer','msi','boat','nothing','jabra','anker','puma','reebok','brooks',
            'asics','salomon','hoka','saucony','new balance','peter england','van heusen','arrow','louis philippe',
            'wildcraft','skybags','garmin','fossil','noise','mi','xiaomi','motorola','google','lava','harman'],
@@ -180,6 +185,9 @@ const SEARCH_ENGINE = {
     'headphones': 'mobile-accessories',
     'smartphone': 'smartphones',
     'laptop': 'laptops',
+    'sweatshirt': ['sweatshirt','sweatshirts','hoodie','pullover'],
+    't_shirt': ['t-shirt','tshirt','tee','t-shirts'],
+    'shirt': ['shirt','shirts','button shirt'],
     'running_shoes': 'mens-shoes',
     'casual_shoes': 'mens-shoes',
     'formal_shirt': 'mens-shirts',
@@ -438,13 +446,39 @@ const RANKING_ENGINE = {
     delivery: 0.10
   },
 
+  computeVectorSimilarity(query, text) {
+    if (!query || !text) return 0.5;
+    const tokenize = s => s.toLowerCase().match(/[a-z0-9]+/g) || [];
+    const qTokens = tokenize(query);
+    const dTokens = tokenize(text);
+    if (!qTokens.length || !dTokens.length) return 0.5;
+
+    const qCounts = {}, dCounts = {};
+    qTokens.forEach(t => qCounts[t] = (qCounts[t] || 0) + 1);
+    dTokens.forEach(t => dCounts[t] = (dCounts[t] || 0) + 1);
+
+    let dot = 0, qMag = 0, dMag = 0;
+    Object.keys(qCounts).forEach(t => {
+      const qVal = qCounts[t];
+      qMag += qVal * qVal;
+      if (dCounts[t]) dot += qVal * dCounts[t];
+    });
+    Object.values(dCounts).forEach(v => dMag += v * v);
+
+    if (qMag === 0 || dMag === 0) return 0.5;
+    return Math.min(1.0, Math.max(0, dot / (Math.sqrt(qMag) * Math.sqrt(dMag))));
+  },
+
   score(product, intent, merchantId = null) {
     const merchant = merchantId || product.best_merchant;
     const price = product.price[merchant] || product.best_price;
     const inv = product.inventory[merchant] || 0;
     const delivery = product.delivery[merchant];
 
-    // 1. Requirement match (category + feature alignment)
+    // Vector Similarity calculation
+    const vector_sim = this.computeVectorSimilarity(intent.raw_query, product.search_text || product.title);
+
+    // 1. Requirement match (category + feature alignment + vector similarity)
     let req_score = 0;
     const isSmartphoneIntent = intent.category === 'smartphone' || (intent.raw_query || '').toLowerCase().includes('iphone');
 
@@ -455,9 +489,8 @@ const RANKING_ENGINE = {
     else if (intent.category && product.category.includes(intent.category.split('_')[0])) req_score = 0.6;
     else req_score = 0.2;
 
-    // Boost for keyword match
-    const kw_hits = intent.keywords.filter(kw => product.search_text.includes(kw)).length;
-    req_score = Math.min(1.0, req_score + (kw_hits * 0.05));
+    // Blend vector similarity into requirement score
+    req_score = Math.min(1.0, (req_score * 0.6) + (vector_sim * 0.4));
 
     // Brand constraint: if user explicitly requested a brand (e.g. Apple / iPhone / Nike / Sony)
     if (intent.brand_preference.length > 0) {
@@ -472,7 +505,7 @@ const RANKING_ENGINE = {
     // 2. Budget fit
     let budget_score = 1.0;
     if (intent.budget.max && price > 0) {
-      if (price <= intent.budget.max) budget_score = 1.0 - (price / intent.budget.max) * 0.1; // Slight bump for lower price
+      if (price <= intent.budget.max) budget_score = 1.0 - (price / intent.budget.max) * 0.1;
       else budget_score = Math.max(0, 1.0 - ((price - intent.budget.max) / intent.budget.max));
     }
 
@@ -485,10 +518,6 @@ const RANKING_ENGINE = {
         return ucWords.some(w => product.search_text.includes(w));
       }).length;
       usecase_score = Math.min(1.0, 0.3 + (ucMatches / intent.use_case.length) * 0.7);
-    }
-    // Surface match
-    if (intent.surface && product.attrs && product.attrs.surface) {
-      usecase_score = product.attrs.surface === intent.surface ? Math.min(1.0, usecase_score + 0.2) : Math.max(0, usecase_score - 0.1);
     }
 
     // 4. Inventory
@@ -519,6 +548,7 @@ const RANKING_ENGINE = {
 
     const breakdown = {
       requirement_match: { score: Math.round(req_score * 30), max: 30, pct: req_score },
+      vector_similarity: { score: Math.round(vector_sim * 100), val: vector_sim.toFixed(3) },
       budget_fit: { score: Math.round(budget_score * 20), max: 20, pct: budget_score },
       use_case: { score: Math.round(usecase_score * 20), max: 20, pct: usecase_score },
       inventory: { score: Math.round(inventory_score * 10), max: 10, pct: inventory_score },
@@ -530,6 +560,7 @@ const RANKING_ENGINE = {
       product,
       merchant_id: merchant,
       price,
+      vector_sim: vector_sim.toFixed(3),
       total_score: Math.round(total * 100),
       breakdown,
       inv,
@@ -1255,10 +1286,10 @@ console.log('Agent Engine loaded. UCP Version:', UCP_VERSION, '| Environment:', 
 '''
 
 # Append to index.html
-with open('/Users/shivanshinigam/.gemini/antigravity-ide/scratch/commerceos/index.html', 'r') as f:
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'index.html'), 'r') as f:
     content = f.read()
 idx = content.rfind('</body>')
 new_content = content[:idx] + AGENT_JS + '\n' + content[idx:]
-with open('/Users/shivanshinigam/.gemini/antigravity-ide/scratch/commerceos/index.html', 'w') as f:
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'index.html'), 'w') as f:
     f.write(new_content)
 print(f"Part 3 written: Agent Engine. File size: {len(new_content):,} bytes")

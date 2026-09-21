@@ -1339,6 +1339,6 @@ code, pre, .mono { font-family: var(--font-mono); }
 </body>
 </html>'''
 
-with open('/Users/shivanshinigam/.gemini/antigravity-ide/scratch/commerceos/index.html', 'w') as f:
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'index.html'), 'w') as f:
     f.write(HTML_PART1)
 print("Part 1 written: HTML structure + CSS design system")

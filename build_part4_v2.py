@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Build Part 4 (V2): Chat Agent UI Controller"""
 
+import os
+
 UI_JS = r'''
 <!-- PART 4: UI CONTROLLER V2 — CHAT AGENT -->
 <script>
@@ -575,7 +577,7 @@ document.addEventListener('DOMContentLoaded', () => {
 '''
 
 if __name__ == '__main__':
-    filepath = "/Users/shivanshinigam/.gemini/antigravity-ide/scratch/commerceos/index.html"
+    filepath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'index.html')
     with open(filepath, 'a') as f:
         f.write(UI_JS)
     print(f"Part 4 V2 written: Animated UI Controller. File size: {len(open(filepath).read()):,} bytes")

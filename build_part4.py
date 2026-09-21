@@ -1517,10 +1517,10 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 '''
 
-with open('/Users/shivanshinigam/.gemini/antigravity-ide/scratch/commerceos/index.html', 'r') as f:
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'index.html'), 'r') as f:
     content = f.read()
 idx = content.rfind('</body>')
 new_content = content[:idx] + UI_JS + '\n' + content[idx:]
-with open('/Users/shivanshinigam/.gemini/antigravity-ide/scratch/commerceos/index.html', 'w') as f:
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'index.html'), 'w') as f:
     f.write(new_content)
 print(f"Part 4 written: Complete UI Controller. File size: {len(new_content):,} bytes")

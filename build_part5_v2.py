@@ -2,6 +2,7 @@
 """Build Part 5 (V2): Complete other tabs (Developer, Architecture, UCP)"""
 
 import re
+import os
 
 TABS_CSS = r'''
 /* ============================================================
@@ -719,7 +720,7 @@ window.runHeroUCPSimulator = async function() {
 '''
 
 if __name__ == "__main__":
-    filepath = "/Users/shivanshinigam/.gemini/antigravity-ide/scratch/commerceos/index.html"
+    filepath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'index.html')
     with open(filepath, 'r') as f:
         content = f.read()
     
