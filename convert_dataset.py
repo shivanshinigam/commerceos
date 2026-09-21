@@ -2,7 +2,6 @@
 import csv
 import json
 import os
-import re
 
 def get_emoji(product_type):
     p = str(product_type).lower()
@@ -13,6 +12,57 @@ def get_emoji(product_type):
     elif 'shirt' in p:
         return '👔'
     return '👗'
+
+def get_image_url(product_type, color, style, pid_num):
+    p = str(product_type).lower()
+    c = str(color).lower()
+    s = str(style).lower()
+
+    # Sweatshirts
+    if 'sweatshirt' in p:
+        if 'black' in c:
+            return 'https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=500&auto=format&fit=crop&q=60'
+        elif 'blue' in c or 'grey' in c or 'gray' in c:
+            return 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500&auto=format&fit=crop&q=60'
+        elif 'red' in c:
+            return 'https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=500&auto=format&fit=crop&q=60'
+        else:
+            urls = [
+                'https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=500&auto=format&fit=crop&q=60',
+                'https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=500&auto=format&fit=crop&q=60',
+                'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500&auto=format&fit=crop&q=60'
+            ]
+            return urls[pid_num % len(urls)]
+
+    # T-Shirts
+    elif 't-shirt' in p:
+        if 'black' in c:
+            return 'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&auto=format&fit=crop&q=60'
+        elif 'white' in c:
+            return 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500&auto=format&fit=crop&q=60'
+        elif 'red' in c:
+            return 'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=500&auto=format&fit=crop&q=60'
+        else:
+            urls = [
+                'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=500&auto=format&fit=crop&q=60',
+                'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500&auto=format&fit=crop&q=60',
+                'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&auto=format&fit=crop&q=60'
+            ]
+            return urls[pid_num % len(urls)]
+
+    # Shirts
+    else:
+        if 'checked' in s or 'check' in s:
+            return 'https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/thumbnail.png'
+        elif 'blue' in c or 'white' in c:
+            return 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500&auto=format&fit=crop&q=60'
+        else:
+            urls = [
+                'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500&auto=format&fit=crop&q=60',
+                'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=500&auto=format&fit=crop&q=60',
+                'https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/thumbnail.png'
+            ]
+            return urls[pid_num % len(urls)]
 
 def get_base_price(product_type, brand, prod_id):
     p = str(product_type).lower()
@@ -43,7 +93,7 @@ def convert():
             pid = row.get('ProductID', '').strip()
             product = row.get('Product', '').strip()
             brand = row.get('BrandName', '').strip()
-            category = row.get('Category', '').strip() # Men / Women / Kids
+            category = row.get('Category', '').strip()
             color = row.get('Color', '').strip()
             style = row.get('Style', '').strip()
             size = row.get('Size', '').strip()
@@ -60,8 +110,8 @@ def convert():
                 rating = 4.9
             reviews = 50 + (pid_num * 17) % 2000
             emoji = get_emoji(product)
+            img_url = get_image_url(product, color, style, pid_num)
 
-            # Standardized category slug
             if 'sweatshirt' in product.lower():
                 cat_slug = 'sweatshirt'
             elif 't-shirt' in product.lower():
@@ -115,11 +165,10 @@ def convert():
                 },
                 "search_text": f"{brand} {color} {style} {product} {category} size {size} {desc}".lower(),
                 "description": desc,
-                "image": f"https://cdn.dummyjson.com/products/images/top-wear/thumbnail.png"
+                "image": img_url
             }
             catalog.append(item)
 
-            # JS item representation for build_part2.py
             js_item = {
                 "id": item["id"],
                 "title": item["title"],
@@ -137,36 +186,28 @@ def convert():
 
     print(f"Converted {len(catalog)} products from Product_data.csv")
 
-    # Save to catalog.json
     out_json = os.path.join(base_dir, 'catalog.json')
     with open(out_json, 'w', encoding='utf-8') as f:
         json.dump(catalog, f, indent=2)
     print(f"Saved {out_json}")
 
-    # Inject dataset JS catalog into build_part2.py
     build_part2_path = os.path.join(base_dir, 'build_part2.py')
     with open(build_part2_path, 'r', encoding='utf-8') as f:
         part2_code = f.read()
 
-    # Convert first 150 items for super-fast inline browser loading, plus full dataset in raw catalog
-    apparel_json_str = json.dumps(apparel_items_js, indent=2)
-
-    # Insert into CURATED_CATALOG inside build_part2.py
     marker = "const CURATED_CATALOG = ["
     if marker in part2_code:
         idx = part2_code.find(marker) + len(marker)
-        formatted_apparel = json.dumps(apparel_items_js[:100], indent=4)[1:-1] # first 100 inline
+        formatted_apparel = json.dumps(apparel_items_js[:100], indent=4)[1:-1]
         new_part2_code = part2_code[:idx] + "\n  // --- DATASET FROM GenAI-Product-Recommender (Product_data.csv) ---" + formatted_apparel + ",\n" + part2_code[idx:]
         with open(build_part2_path, 'w', encoding='utf-8') as f:
             f.write(new_part2_code)
         print("Updated build_part2.py with dataset items!")
 
-    # Update build_part3.py INTENT_PARSER & SEARCH_ENGINE
     build_part3_path = os.path.join(base_dir, 'build_part3.py')
     with open(build_part3_path, 'r', encoding='utf-8') as f:
         part3_code = f.read()
 
-    # Add apparel categories & brands to INTENT_PARSER if not present
     if "'sweatshirt'" not in part3_code:
         part3_code = part3_code.replace(
             "'running_shoes':",
